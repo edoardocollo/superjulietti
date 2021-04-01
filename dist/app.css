@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+.button {
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.round_icon {
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+/* MAINNAV */
+#main_nav {
+  height: 95px;
+  background-color: white;
+  border-bottom: 2px solid #b7cbb5;
+}
+
+#main_nav > .container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+#main_nav > .container > img {
+  height: 60px;
+}
+
+/* JUMBOTRON */
+#jumbotron {
+  color: #2c5e53;
+  height: 473px;
+  background-color: #d4fec9;
+}
+
+#jumbotron > .container {
+  display: flex;
+  height: 100%;
+}
+
+#jumbo_left,
+#jumbo_right {
+  width: 50%;
+  display: flex;
+}
+
+#jumbo_left {
+  flex-direction: column;
+  justify-content: center;
+}
+
+#jumbo_left > h1 {
+  text-transform: uppercase;
+}
+
+#jumbo_left > hr {
+  height: 2px;
+  width: 300px;
+  background-color: #85c495;
+  border: 0;
+}
+
+#jumbo_right {
+  margin-top: 10px;
+  justify-content: center;
+}
+
+#jumbo_right > img {
+  height: 100%;
+}
+
+.jumbo_btn_wrap {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.jumbo_btn_wrap > .wrap {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+  background-color: #fd9f29;
+}
+
+.jumbo_btn_wrap > .wrap > a {
+  color: #2c5e53;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.garanzia_button {
+  color: white;
+  font-weight: bold;
+  background-color: #2c5e53;
+}
+
+.round_icon {
+  margin-left: 10px;
+}
+
+/* STAR B0X */
+#star_box {
+  height: 160px;
+}
+
+#star_box > .container {
+  display: flex;
+  height: 100%;
+}
+
+.star_container {
+  height: 100%;
+  width: 25%;
+  padding: 30px 10px;
+}
+
+.star_card {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: #2c5e53;
+  font-size: 20px;
+  font-weight: bold;
+  border: 2px solid #85c495;
+  border-radius: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0 20px;
+}
+
+.star_card > .round_icon {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #85c495;
+}
+
+/* MAIN SECTION */
+#main_section {
+  height: 550px;
+  background-color: #d4fec9;
+}
+
+/* INFO */
+#info_section {
+  height: 550px;
+}
+
+/* VIDEO SECTION */
+#video_section {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  height: 550px;
+  background-color: #d4fec9;
+}
+
+.video_box, .video_text {
+  width: 50%;
+}
+
+.video_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video_box > video {
+  width: 80%;
+}
+
+.video_text {
+  color: #2c5e53;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.video_row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid white;
+  padding: 15px 0;
+  font-weight: bold;
+}
+
+.video_badge {
+  color: white;
+  min-height: 30px;
+  min-width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #85c495;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.video_banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  height: 40px;
+  color: #FFFFFF;
+  background-color: #2C5E53;
+  font-weight: bold;
+}
+
+.footer_top, .footer_bottom {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CAROUSEL SECTION */
+#carousel_section {
+  position: relative;
+  height: 550px;
+}
+
+.carousel_contact_button {
+  width: 100%;
+  position: absolute;
+  bottom: 10px;
+}
+
+.carousel_contact_button > .jumbo_btn_wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 10px;
+  width: 100%;
+  background-color: #cececece;
+}
+
+/* FEEDBACK SECTION */
+#feedback_section {
+  height: 550px;
+  background-color: #cecece;
+}
+
+/* FOOTER */
+footer {
+  background-color: #2C5E53;
+  color: white;
+}
