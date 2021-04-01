@@ -1,52 +1,48 @@
 <template>
-<!-- Make a div wrapped slider,set height and width -->
- <div style="width:100%;margin:20px auto;height:400px">
-      <!-- Using the slider component -->
-      <slider ref="slider" :options="options">
-          <!-- slideritem wrapped package with the components you need -->
-          <slideritem v-for="(item,index) in someList" :key="index" :style="item.style">{{item.html}}</slideritem>
-          <!-- Customizable loading -->
-          <div slot="loading">loading...</div>
-      </slider>
- </div>
+  <hooper :itemsToShow="2" id="carousel_box">
+    <slide class="slide">
+      <img src="img/slider001.jpg" alt="">
+    </slide>
+    <slide class="slide">
+      <img src="img/slider002.jpg" alt="">
+    </slide>
+    <slide class="slide">
+      <img src="img/slider003.jpg" alt="">
+    </slide>
+    <slide class="slide">
+      <img src="img/slider004.jpg" alt="">
+    </slide>
+    <slide class="slide">
+      <img src="img/slider005.jpg" alt="">
+    </slide>
+  </hooper>
 </template>
+
 <script>
-// import slider components
-import { slider, slideritem } from 'vue-concise-slider'
+import { Hooper, Slide } from 'hooper';
+import 'hooper/dist/hooper.css';
+
 export default {
-   el: '#app',
-   data () {
-      return {
-        //data list [array]
-        someList:[
-          {
-            html: 'slide1',
-            style: {
-              'background': '#1bbc9b'
-            }
-          },
-          {
-            html: 'slide2',
-            style: {
-              'background': '#4bbfc3'
-            }
-          },
-          {
-            html: 'slide3',
-            style: {
-              'background': '#7baabe'
-            }
-          }
-        ],
-        //Slider configuration [obj]
-        options: {
-          currentPage: 0
-        }
-      }
-    },
-    components: {
-      slider,
-      slideritem
-    }
-}
+  name: 'App',
+  components: {
+    Hooper,
+    Slide
+  }
+};
 </script>
+<style>
+#carousel_box {
+margin:auto;
+height:316px;
+}
+.slide {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.slide > img {
+  width:90%;
+  border:7px solid #c2e1ca;
+  margin:auto;
+}
+</style>

@@ -250,9 +250,35 @@
 
 /* FEEDBACK SECTION */
 #feedback_section {
+  display: flex;
+  flex-direction: column;
   height: 550px;
   background-color: #EAEAEA;
-
+  h2 {
+    text-transform: uppercase;
+    margin: auto;
+  }
+  hr {
+    width: 70%;
+    margin: auto;
+  }
+  .feedback_container{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    .left {
+      width: 33.3%;
+      padding: 20px;
+      .feedback_card {
+        height: 100%;
+        background-color: #fff;
+        border-radius: 10px;
+      }
+    }
+    .right {
+      width: 66.6%;
+    }
+  }
 }
 
 

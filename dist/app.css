@@ -264,8 +264,35 @@
 
 /* FEEDBACK SECTION */
 #feedback_section {
+  display: flex;
+  flex-direction: column;
   height: 550px;
   background-color: #EAEAEA;
+}
+#feedback_section h2 {
+  text-transform: uppercase;
+  margin: auto;
+}
+#feedback_section hr {
+  width: 70%;
+  margin: auto;
+}
+#feedback_section .feedback_container {
+  display: flex;
+  width: 70%;
+  margin: auto;
+}
+#feedback_section .feedback_container .left {
+  width: 33.3%;
+  padding: 20px;
+}
+#feedback_section .feedback_container .left .feedback_card {
+  height: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+}
+#feedback_section .feedback_container .right {
+  width: 66.6%;
 }
 
 /* FOOTER */

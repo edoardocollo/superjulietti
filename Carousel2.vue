@@ -1,5 +1,5 @@
 <template>
-  <hooper :itemsToShow="3" id="carousel_box">
+  <hooper :itemsToShow="3" id="carousel_box2">
     <slide class="slide">
       <img src="img/slider001.jpg" alt="">
     </slide>
@@ -86,7 +86,7 @@ export default {
 };
 </script>
 <style>
-#carousel_box {
+#carousel_box2 {
 width:70%;
 margin:auto;
 height:240px;
