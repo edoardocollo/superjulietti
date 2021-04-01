@@ -1,27 +1,104 @@
 <template>
-  <div>
-    <VueSlickCarousel :arrows="true" :dots="true">
-      <div class="carousel_card">1</div>
-      <div class="carousel_card">2</div>
-      <div class="carousel_card">3</div>
-      <div class="carousel_card">4</div>
-    </VueSlickCarousel>
-  </div>
+  <hooper :itemsToShow="3" id="carousel_box">
+    <slide class="slide">
+      <img src="img/slider001.jpg" alt="">
+    </slide>
+    <slide class="slide">
+      <img src="img/slider002.jpg" alt="">
+    </slide>
+    <slide class="slide">
+      <img src="img/slider003.jpg" alt="">
+    </slide>
+    <slide class="slide">
+      <img src="img/slider004.jpg" alt="">
+    </slide>
+    <slide class="slide">
+      <img src="img/slider005.jpg" alt="">
+    </slide>
+    <slide class="slide">
+      <img src="img/slider006.jpg" alt="">
+    </slide>
+    <slide class="slide">
+      <img src="img/slider007.jpg" alt="">
+    </slide>
+    <slide class="slide">
+      <img src="img/slider008.jpg" alt="">
+    </slide>
+    <slide class="slide">
+      <img src="img/slider009.jpg" alt="">
+    </slide>
+    <slide class="slide">
+      <img src="img/slider010.jpg" alt="">
+    </slide>
+    <slide class="slide">
+      <img src="img/slider011.jpg" alt="">
+    </slide>
+    <slide class="slide">
+      <img src="img/slider012.jpg" alt="">
+    </slide>
+    <slide class="slide">
+      <img src="img/slider013.jpg" alt="">
+    </slide>
+    <slide class="slide">
+      <img src="img/slider014.jpg" alt="">
+    </slide>
+    <slide class="slide">
+      <img src="img/slider015.jpg" alt="">
+    </slide>
+    <slide class="slide">
+      <img src="img/slider016.jpg" alt="">
+    </slide>
+    <slide class="slide">
+      <img src="img/slider017.jpg" alt="">
+    </slide>
+    <slide class="slide">
+      <img src="img/slider018.jpg" alt="">
+    </slide>
+    <slide class="slide">
+      <img src="img/slider019.jpg" alt="">
+    </slide>
+    <slide class="slide">
+      <img src="img/slider020.jpg" alt="">
+    </slide>
+    <slide class="slide">
+      <img src="img/slider021.jpg" alt="">
+    </slide>
+    <slide class="slide">
+      <img src="img/slider022.jpg" alt="">
+    </slide>
+    <slide class="slide">
+      <img src="img/slider023.jpg" alt="">
+    </slide>
+
+  </hooper>
 </template>
 
 <script>
-  import VueSlickCarousel from 'vue-slick-carousel'
-  // optional style for arrows & dots
-  import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
+import { Hooper, Slide } from 'hooper';
+import 'hooper/dist/hooper.css';
 
-  export default {
-    name: 'MyComponent',
-    components: { VueSlickCarousel },
+export default {
+  name: 'App',
+  components: {
+    Hooper,
+    Slide
   }
+};
 </script>
 <style>
-.carousel_card {
-  height:200px;
-  background-color:red;
+#carousel_box {
+width:70%;
+margin:auto;
+height:240px;
+}
+.slide {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.slide > img {
+  width:90%;
+  border:7px solid #c2e1ca;
+  margin:auto;
 }
 </style>

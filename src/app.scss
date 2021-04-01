@@ -221,14 +221,16 @@
 
 /* CAROUSEL SECTION */
 #carousel_section{
-  position: relative;
-  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 450px;
 
 }
 .carousel_contact_button {
   width: 100%;
- position: absolute;
- bottom: 10px;
+  margin-bottom: 15px;
 }
 .carousel_contact_button > .jumbo_btn_wrap {
   display: flex;
@@ -237,12 +239,19 @@
   margin: 0;
   padding: 10px;
   width: 100%;
-  background-color: #cececece;
+  background-color: #EAEAEA;
 }
+
+
+
+
+
+
+
 /* FEEDBACK SECTION */
 #feedback_section {
   height: 550px;
-  background-color: #cecece;
+  background-color: #EAEAEA;
 
 }
 
