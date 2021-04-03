@@ -1,0 +1,14 @@
+/* MAINNAV */
+#main_nav {
+  height: 95px;
+  background-color: white;
+  border-bottom: 2px solid #b7cbb5;
+  div{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    img {
+      height: 60px;
+    }
+  }
+}

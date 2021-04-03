@@ -1,0 +1,91 @@
+/* JUMBOTRON */
+#jumbotron {
+  color: #2c5e53;
+  height: 473px;
+  background-color: #d4fec9;
+  border: 1px solid black;
+  .wrap{
+    display: flex;
+    height: 100%;
+    #jumbo_left {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      h1 {
+        text-transform: uppercase;
+      }
+      hr {
+        height: 2px;
+        width: 300px;
+        background-color: #85c495;
+        border: 0;
+      }
+      .jumbo_btn_wrap {
+        display: flex;
+        align-items: center;
+        margin: 20px 0;
+        .wrap {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          .pulse_button{
+              position: relative;
+              a{
+                  display: flex !important;
+                  align-items: center;
+                  justify-content: space-between;
+                  padding: 10px;
+                  text-decoration: none;
+                  background-color: #fd9f29;
+                  width: 200px;
+                  color: #fff;
+                  font-size: 20px;
+                  border-radius: 12px;
+                  cursor: pointer;
+                  border: 0;
+                  display: inline-block;
+                  animation: pulse-animation 1.3s infinite;
+                  .icona_freccia{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                      width: 25px;
+                      height: 25px;
+                      border-radius: 100%;
+                      color: black;
+                      font-size: 1rem;
+                      background-color: white;
+                  }
+              }
+              @keyframes pulse-animation {
+                  0% {
+                      transform: scale(.9);
+                  }
+                  70% {
+                      transform: scale(1);
+                  }
+                  100% {
+                      transform: scale(.9);
+                  }
+              }
+          }
+        }
+      }
+    }
+    #jumbo_right {
+      width: 50%;
+      display: flex;
+      margin-top: 10px;
+      justify-content: flex-end;
+      img {
+        height: 100%;
+      }
+    }
+  }
+}
+.garanzia_button {
+  color: white;
+  font-weight: bold;
+  background-color: #2c5e53;
+}
