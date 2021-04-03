@@ -1,12 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-.container {
-  width: 70%;
-  margin: auto;
-}
 .button {
   text-decoration: none;
   padding: 10px;
@@ -19,178 +10,23 @@
   background-color: white;
   border-radius: 50%;
 }
-
-.jl_container {
-  width: 1200px;
-  margin: auto;
-}
-@media screen and (max-width:1200px) and (min-width:930px){
-  .jl_container {
-    width: 930px;
-  }
-}
-@media screen and (max-width:930px){
-  .jl_container {
-    width: 100%;
-  }
-}
 @import 'partials/_nav.scss';
 @import 'partials/_jumbo.scss';
-
-// /* STAR B0X */
-// #star_box {
-//   height: 160px;
-// }
-// #star_box > .container {
-//   display: flex;
-//   height: 100%;
-// }
-// .star_container {
-//   height: 100%;
-//   width: 25%;
-//   padding: 30px 10px;
-// }
-// .star_card {
-//   position: relative;
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   height: 100%;
-//   color: #2c5e53;
-//   font-size: 20px;
-//   font-weight: bold;
-//   border: 2px solid #85c495;
-//   border-radius: 10px;
-//   text-align: center;
-//   text-transform: uppercase;
-//   padding: 0 20px;
-// }
-// .star_card > .round_icon {
-//   position: absolute;
-//   top: 0;
-//   left: 50%;
-//   transform: translate(-50%, -50%);
-//   background-color: #85c495;
-// }
-
-// /* MAIN SECTION */
-// #main_section {
-//   height: 550px;
-//   background-color: #d4fec9;
-// }
-//
-//
-//
-// /* INFO */
-// #info_section {
-//   height: 550px;
-//
-// }
-//
-
-
 @import 'partials/_video.scss';
+@import 'partials/_carousel.scss';
+@import 'partials/_feedback.scss';
+@import 'partials/_footer.scss';
+@import 'partials/_common.scss';
+@import 'partials/_subJumbo.scss';
+@import 'partials/_contactForm.scss';
+@import 'partials/_prep.scss';
+@import 'partials/_mediaquery.scss';
 
 .footer_top, .footer_bottom {
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-// /* CAROUSEL SECTION */
-// #carousel_section{
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: center;
-//   align-items: center;
-//   height: 450px;
-//
-// }
-// .carousel_contact_button {
-//   width: 100%;
-//   margin-bottom: 15px;
-// }
-// .carousel_contact_button > .jumbo_btn_wrap {
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   margin: 0;
-//   padding: 10px;
-//   width: 100%;
-//   background-color: #EAEAEA;
-// }
-
-
-
-
-
-
-
-/* FEEDBACK SECTION */
-#feedback_section {
-  height: 550px;
-  background-color: #EAEAEA;
-
-}
-
-
-/* FOOTER */
-footer {
-  background-color: #2C5E53;
-  color: white;
-  .jumbo_btn_wrap {
-    display: flex;
-    align-items: center;
-    margin: 20px 0;
-    .wrap {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      .pulse_button{
-          position: relative;
-          a{
-              display: flex !important;
-              align-items: center;
-              justify-content: space-between;
-              padding: 10px;
-              text-decoration: none;
-              background-color: #fd9f29;
-              width: 200px;
-              color: #fff;
-              font-size: 20px;
-              border-radius: 12px;
-              cursor: pointer;
-              border: 0;
-              display: inline-block;
-              animation: pulse-animation 1.3s infinite;
-              .icona_freccia{
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                  width: 25px;
-                  height: 25px;
-                  border-radius: 100%;
-                  color: black;
-                  font-size: 1rem;
-                  background-color: white;
-              }
-          }
-          @keyframes pulse-animation {
-              0% {
-                  transform: scale(.9);
-              }
-              70% {
-                  transform: scale(1);
-              }
-              100% {
-                  transform: scale(.9);
-              }
-          }
-      }
-    }
-  }
-
 }
 
 
@@ -201,136 +37,136 @@ footer {
 
 
 
-
-.subjumbo{
-  padding: 20px 0;
-  .card{
-      border: 1px solid green;
-      position: relative;
-  }
-  .star_border:before{
-      position: absolute;
-      content: "\02605";
-      color: white;
-      padding: 0 2%;
-      border-radius: 100%;
-      background-color: green;
-      top: 0;
-      left: 50%;
-      transform: translate(-50%, -50%);
-  }
-}
-
-
-#form_contact{
-  background-color: #87c596;
-  padding: 1rem;
-  .card{
-      border-radius: 1rem;
-      padding: 1rem;
-      img{
-          width: 70%;
-      }
-      .spedizione{
-          background-color:green;
-          position: relative;
-          i{
-              position: absolute;
-              left: 0.5rem;
-              color: green;
-              background-color: white;
-              padding: 1%;
-              border-radius: 100%;
-          }
-          h4{
-              margin-bottom: 0;
-          }
-      }
-      .pagamento{
-          background-color:lightgray;
-      }
-      .pulse_button{
-          position: relative;
-          .submit_btn{
-              text-decoration: none;
-              background-color: #fd9f29;
-              width: 100%;
-              color: #fff;
-              font-size: 20px;
-              border-radius: 12px;
-              cursor: pointer;
-              border: 0;
-              display: inline-block;
-              animation: pulse-animation 1.3s infinite;
-              .icona_freccia{
-                  position: absolute;
-                  right: 1.5rem;
-                  top: 0.2rem;
-                  border-radius: 100%;
-                  color: black;
-                  font-size: 1rem;
-                  background-color: white;
-              }
-          }
-          @keyframes pulse-animation {
-              0% {
-                  transform: scale(.9);
-              }
-              70% {
-                  transform: scale(1);
-              }
-              100% {
-                  transform: scale(.9);
-              }
-          }
-      }
-  }
-  .prezzo_originale{
-      position: relative;
-      font-size: 2rem;
-      background-color: #eaeaea;
-      border-radius: 0.5rem 0 0 0.5rem;
-      padding: 0 1rem;
-      &:after {
-          content: "";
-          width: 100%;
-          height: 3px;
-          border-radius: 15px;
-          background-color: #e15858;
-          position: absolute;
-          transform: rotate(-17deg);
-          left: 0px;
-          top: 20px;
-      }
-  }
-
-  .sconto{
-      font-size: 2rem;
-      background-color: #87c596;
-      border-radius: 0 0.5rem 0.5rem 0;
-      padding: 0 1rem;
-  }
-  .icona_freccia{
-      font-size: 1rem;
-      background-color: #eaeaea;
-      border-radius: 100%;
-      padding: 0 0.4rem;
-      vertical-align: super;
-  }
-  .prezzo_finale{
-      font-size: 2rem;
-      background-color: #fd9f29;
-      border-radius: 0.5rem ;
-      padding: 0 1rem;
-  }
-}
-#prep_ver{
-  img{
-      width: 100%;
-  }
-  hr{
-      width: 30%;
-      height: 3px;
-      color: green;
-  }
-}
+//
+// .subjumbo{
+//   padding: 20px 0;
+//   .card{
+//       border: 1px solid green;
+//       position: relative;
+//   }
+//   .star_border:before{
+//       position: absolute;
+//       content: "\02605";
+//       color: white;
+//       padding: 0 2%;
+//       border-radius: 100%;
+//       background-color: green;
+//       top: 0;
+//       left: 50%;
+//       transform: translate(-50%, -50%);
+//   }
+// }
+//
+//
+// #form_contact{
+//   background-color: #87c596;
+//   padding: 1rem;
+//   .card{
+//       border-radius: 1rem;
+//       padding: 1rem;
+//       img{
+//           width: 70%;
+//       }
+//       .spedizione{
+//           background-color:green;
+//           position: relative;
+//           i{
+//               position: absolute;
+//               left: 0.5rem;
+//               color: green;
+//               background-color: white;
+//               padding: 1%;
+//               border-radius: 100%;
+//           }
+//           h4{
+//               margin-bottom: 0;
+//           }
+//       }
+//       .pagamento{
+//           background-color:lightgray;
+//       }
+//       .pulse_button{
+//           position: relative;
+//           .submit_btn{
+//               text-decoration: none;
+//               background-color: #fd9f29;
+//               width: 100%;
+//               color: #fff;
+//               font-size: 20px;
+//               border-radius: 12px;
+//               cursor: pointer;
+//               border: 0;
+//               display: inline-block;
+//               animation: pulse-animation 1.3s infinite;
+//               .icona_freccia{
+//                   position: absolute;
+//                   right: 1.5rem;
+//                   top: 0.2rem;
+//                   border-radius: 100%;
+//                   color: black;
+//                   font-size: 1rem;
+//                   background-color: white;
+//               }
+//           }
+//           @keyframes pulse-animation {
+//               0% {
+//                   transform: scale(.9);
+//               }
+//               70% {
+//                   transform: scale(1);
+//               }
+//               100% {
+//                   transform: scale(.9);
+//               }
+//           }
+//       }
+//   }
+//   .prezzo_originale{
+//       position: relative;
+//       font-size: 2rem;
+//       background-color: #eaeaea;
+//       border-radius: 0.5rem 0 0 0.5rem;
+//       padding: 0 1rem;
+//       &:after {
+//           content: "";
+//           width: 100%;
+//           height: 3px;
+//           border-radius: 15px;
+//           background-color: #e15858;
+//           position: absolute;
+//           transform: rotate(-17deg);
+//           left: 0px;
+//           top: 20px;
+//       }
+//   }
+//
+//   .sconto{
+//       font-size: 2rem;
+//       background-color: #87c596;
+//       border-radius: 0 0.5rem 0.5rem 0;
+//       padding: 0 1rem;
+//   }
+//   .icona_freccia{
+//       font-size: 1rem;
+//       background-color: #eaeaea;
+//       border-radius: 100%;
+//       padding: 0 0.4rem;
+//       vertical-align: super;
+//   }
+//   .prezzo_finale{
+//       font-size: 2rem;
+//       background-color: #fd9f29;
+//       border-radius: 0.5rem ;
+//       padding: 0 1rem;
+//   }
+// }
+// #prep_ver{
+//   img{
+//       width: 100%;
+//   }
+//   hr{
+//       width: 30%;
+//       height: 3px;
+//       color: green;
+//   }
+// }

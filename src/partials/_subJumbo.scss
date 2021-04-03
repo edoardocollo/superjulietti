@@ -1,0 +1,18 @@
+.subjumbo{
+  padding: 20px 0;
+  .card{
+      border: 1px solid green;
+      position: relative;
+  }
+  .star_border:before{
+      position: absolute;
+      content: "\02605";
+      color: white;
+      padding: 0 2%;
+      border-radius: 100%;
+      background-color: green;
+      top: 0;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+}
