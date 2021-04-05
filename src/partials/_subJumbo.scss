@@ -1,8 +1,9 @@
 .subjumbo{
   padding: 20px 0;
   .card{
-      border: 1px solid green;
+      border: 1px solid #87c596;
       position: relative;
+      text-align: center;
   }
   .star_border:before{
       position: absolute;
@@ -10,9 +11,11 @@
       color: white;
       padding: 0 2%;
       border-radius: 100%;
-      background-color: green;
+      background-color: #85c495;
       top: 0;
       left: 50%;
       transform: translate(-50%, -50%);
+      font-size: 1.5rem;
+      line-height: 2rem;
   }
 }

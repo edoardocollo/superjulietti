@@ -345,8 +345,9 @@ footer .jumbo_btn_wrap .wrap .pulse_button a .icona_freccia {
   padding: 20px 0;
 }
 .subjumbo .card {
-  border: 1px solid green;
+  border: 1px solid #87c596;
   position: relative;
+  text-align: center;
 }
 .subjumbo .star_border:before {
   position: absolute;
@@ -354,10 +355,12 @@ footer .jumbo_btn_wrap .wrap .pulse_button a .icona_freccia {
   color: white;
   padding: 0 2%;
   border-radius: 100%;
-  background-color: green;
+  background-color: #85c495;
   top: 0;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 #form_contact {
@@ -463,6 +466,9 @@ footer .jumbo_btn_wrap .wrap .pulse_button a .icona_freccia {
   padding: 0 1rem;
 }
 
+#prep_ver {
+  margin: 2rem 0;
+}
 #prep_ver img {
   width: 100%;
 }
