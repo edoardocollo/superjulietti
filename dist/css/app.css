@@ -601,6 +601,36 @@ footer .jumbo_btn_wrap .wrap .pulse_button a .icona_freccia {
   color: green;
 }
 
+#feedback_container .feedback_row {
+  border-bottom: 2px solid #eaeaea;
+}
+#feedback_container .feedback_row div {
+  display: flex;
+}
+#feedback_container .feedback_row div .wrap {
+  display: flex;
+  flex-direction: column;
+}
+#feedback_container .feedback_row div .wrap span {
+  color: #FAD345;
+}
+#feedback_container .feedback_row div .wrap span .gray {
+  color: #EAEAEA;
+}
+#feedback_container .feedback_row div .wrap h3 {
+  font-size: 30px;
+}
+#feedback_container .feedback_row div img {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+
+.description {
+  font-size: 35px;
+  font-weight: bolder;
+}
+
 @media screen and (max-width: 1200px) and (min-width: 930px) {
   .jl_container {
     width: 930px;
