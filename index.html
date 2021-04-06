@@ -13,16 +13,18 @@
       <!-- VUE APP   -->
 
 
+      <!-- NAV -->
+      <nav id="main_nav" class="jl_container">
+        <a href="" v-if="!toggle" @click="toggleFunction">home</a>
+        <div>
+          <img src="logo_sj.jpg" alt="">
+        </div>
+      </nav>
 
-        <!-- NAV -->
-        <nav id="main_nav" class="jl_container">
-          <div>
-            <img src="logo_sj.jpg" alt="">
-          </div>
-        </nav>
 
 
         <div class="uber_container" v-if="toggle">
+
 
           <!-- JUMBOTRON -->
           <div id="jumbotron" class="jl_container">
@@ -255,9 +257,12 @@
 
         </div>
 
+
+
+
+
         <div id="feedback_container" v-if="!toggle" class="jl_container">
-          FEEDBACK
-          <a href="#" @click="toggleFunction">HOME</a>
+
           <div class="feedback_row">
             <div class="">
               <img src="img/user8.jpg" alt="">
@@ -265,6 +270,7 @@
 
                 <h3>SANDRA BONZI</h3>
                 <span class="star_wrap"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                <span class="verified">Acquisto verificato</span>
               </div>
             </div>
             <h3 class="description">Mi sono innamorata di questa affetta verdure!</h3>
@@ -279,6 +285,7 @@
 
                 <h3>ANNA MARIA OMBRINI</h3>
                 <span class="star_wrap"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star gray"></i></span>
+                <span class="verified">Acquisto verificato</span>
               </div>
             </div>
             <h3 class="description">Super Julietti ci aiuta a cucinare in modo divertente! </h3>
@@ -292,6 +299,7 @@
 
                 <h3>FRANCESCA MORETTI</h3>
                 <span class="star_wrap"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                <span class="verified">Acquisto verificato</span>
               </div>
             </div>
             <h3 class="description">E’ uno strumento completo, si gira senza far fatica e affetti di tutto! </h3>
@@ -305,6 +313,7 @@
 
                 <h3>SILVIA TOMEI</h3>
                 <span class="star_wrap"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                <span class="verified">Acquisto verificato</span>
               </div>
             </div>
             <h3 class="description">Bellissimo accessorio da avere!</h3>
@@ -319,6 +328,7 @@
 
                 <h3>ANDREA LURGO</h3>
                 <span class="star_wrap"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                <span class="verified">Acquisto verificato</span>
               </div>
             </div>
             <h3 class="description">Strumento molto pratico soprattutto per preparare carote o zucchine</h3>
@@ -332,6 +342,7 @@
 
                 <h3>ROBERTA BELTRAMI</h3>
                 <span class="star_wrap"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star gray"></i></span>
+                <span class="verified">Acquisto verificato</span>
               </div>
             </div>
             <h3 class="description">E’ divertente e le sue forme hanno conquistato i miei bambini. Lo adorano!</h3>
@@ -345,6 +356,7 @@
 
                 <h3>FABRIZIO COLA </h3>
                 <span class="star_wrap"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                <span class="verified">Acquisto verificato</span>
               </div>
             </div>
             <h3 class="description">Ne ho provati diversi, ma nessuno è così facile da utilizzare</h3>
@@ -359,6 +371,7 @@
 
                 <h3>LUCIA MORASCHETTI</h3>
                 <span class="star_wrap"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                <span class="verified">Acquisto verificato</span>
               </div>
             </div>
             <h3 class="description">Ne ho provati diversi, ma nessuno è così facile da utilizzare</h3>
@@ -372,6 +385,7 @@
 
                 <h3>CARLOTTA PAGANI</h3>
                 <span class="star_wrap"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                <span class="verified">Acquisto verificato</span>
               </div>
             </div>
             <h3 class="description">Veloce, leggero, facile da usare e da pulire.</h3>
@@ -386,6 +400,7 @@
 
                 <h3>ILARIA DESSENA</h3>
                 <span class="star_wrap"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star gray"></i></span>
+                <span class="verified">Acquisto verificato</span>
               </div>
             </div>
             <h3 class="description">Arrivato questa mattina e l ho già usato per preparare il pranzo</h3>
@@ -399,6 +414,7 @@
 
                 <h3>EMMA PADALINA </h3>
                 <span class="star_wrap"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                <span class="verified">Acquisto verificato</span>
               </div>
             </div>
             <h3 class="description">Dal primo impatto sembra cmq molto resistente</h3>
@@ -412,6 +428,7 @@
 
                 <h3>LUISA ACCORTO</h3>
                 <span class="star_wrap"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                <span class="verified">Acquisto verificato</span>
               </div>
             </div>
             <h3 class="description">Utile davvero tanto anche per preparare chips di mele per i bambini</h3>
@@ -425,6 +442,7 @@
 
                 <h3>ANNAMARIA RASCHI </h3>
                 <span class="star_wrap"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                <span class="verified">Acquisto verificato</span>
               </div>
             </div>
             <h3 class="description">Bellissimi piatti e molto originali, effetto sorpresa assicurato!!</h3>
@@ -438,6 +456,7 @@
 
                 <h3>LUCREZIA ORFANINI</h3>
                 <span class="star_wrap"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star gray"></i></span>
+                <span class="verified">Acquisto verificato</span>
               </div>
             </div>
             <h3 class="description">E’ comodo e non ingombra nemmeno un po’. Lo consiglio</h3>
@@ -452,6 +471,7 @@
 
                 <h3>ROBERTTO NENCIONI</h3>
                 <span class="star_wrap"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                <span class="verified">Acquisto verificato</span>
               </div>
             </div>
             <h3 class="description">Comodo e permette di variare un po’ il menù. Idea molto simpatica.</h3>
@@ -465,6 +485,7 @@
 
                 <h3>LAURA TURINI</h3>
                 <span class="star_wrap"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                <span class="verified">Acquisto verificato</span>
               </div>
             </div>
             <h3 class="description">Ho già provato con carote, zucchine e cipolle. Risultati super!!!</h3>
@@ -478,6 +499,7 @@
 
                 <h3>SIMONA VALENTINI</h3>
                 <span class="star_wrap"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                <span class="verified">Acquisto verificato</span>
               </div>
             </div>
             <h3 class="description">Comodo comodissimo!!!</h3>
@@ -491,6 +513,7 @@
 
                 <h3>GIADA MANCINI</h3>
                 <span class="star_wrap"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                <span class="verified">Acquisto verificato</span>
               </div>
             </div>
             <h3 class="description">Penso che questo Super Julietti sia un’idea stratosferica</h3>
@@ -504,6 +527,7 @@
 
                 <h3>MARIA ADANI</h3>
                 <span class="star_wrap"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                <span class="verified">Acquisto verificato</span>
               </div>
             </div>
             <h3 class="description">Il miglior affetta verdure di sempre!</h3>
@@ -517,6 +541,7 @@
 
                 <h3>GIULIA GRASSI</h3>
                 <span class="star_wrap"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                <span class="verified">Acquisto verificato</span>
               </div>
             </div>
             <h3 class="description">Penso che questo Super Julietti sia un’idea stratosferica</h3>
@@ -531,6 +556,7 @@
 
                 <h3>ANNA PIANELLA</h3>
                 <span class="star_wrap"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                <span class="verified">Acquisto verificato</span>
               </div>
             </div>
             <h3 class="description">Molto molto utile e si usa con facilità</h3>
@@ -544,6 +570,7 @@
 
                 <h3>ALBA RICCI</h3>
                 <span class="star_wrap"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                <span class="verified">Acquisto verificato</span>
               </div>
             </div>
             <h3 class="description">Bell’idea, consiglio di provare</h3>

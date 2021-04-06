@@ -636,6 +636,7 @@ var app = new vue__WEBPACK_IMPORTED_MODULE_0__.default({
   methods: {
     toggleFunction: function toggleFunction() {
       this.toggle = !this.toggle;
+      window.scrollTo(0, 0);
     }
   }
 });

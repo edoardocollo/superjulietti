@@ -15,6 +15,8 @@
 
 /* MAINNAV */
 #main_nav {
+  display: flex;
+  align-items: center;
   height: 95px;
   background-color: white;
   border-bottom: 2px solid #b7cbb5;
@@ -607,16 +609,23 @@ footer .jumbo_btn_wrap .wrap .pulse_button a .icona_freccia {
 }
 #feedback_container .feedback_row div {
   display: flex;
+  align-items: center;
 }
 #feedback_container .feedback_row div .wrap {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
 }
 #feedback_container .feedback_row div .wrap span {
   color: #FAD345;
 }
 #feedback_container .feedback_row div .wrap span .gray {
   color: #EAEAEA;
+}
+#feedback_container .feedback_row div .wrap .verified {
+  color: #2dbd0f;
+  font-size: 20px;
+  font-weight: 900;
 }
 #feedback_container .feedback_row div .wrap h3 {
   font-size: 30px;
@@ -625,6 +634,7 @@ footer .jumbo_btn_wrap .wrap .pulse_button a .icona_freccia {
   height: 70px;
   width: 70px;
   border-radius: 50%;
+  margin-right: 20px;
 }
 
 .description {

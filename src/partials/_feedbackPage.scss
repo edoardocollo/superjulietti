@@ -4,15 +4,22 @@
     border-bottom: 2px solid #eaeaea;
     div {
       display: flex;
+      align-items: center;
       .wrap{
         display: flex;
         flex-direction: column;
+        align-items: flex-start;
         span {
           color: #FAD345;
           .gray {
             color: #EAEAEA;
           }
 
+        }
+        .verified{
+          color: #2dbd0f;
+          font-size: 20px;
+          font-weight: 900;
         }
         h3 {
           font-size: 30px;
@@ -27,7 +34,7 @@
   height: 70px;
   width: 70px;
   border-radius: 50%;
-
+  margin-right: 20px;
 }
 .description {
   font-size: 35px;

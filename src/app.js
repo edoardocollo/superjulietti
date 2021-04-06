@@ -17,6 +17,7 @@ let app = new Vue({
   methods:{
     toggleFunction: function(){
       this.toggle = !this.toggle;
+      window.scrollTo(0, 0);
     }
   },
 });
