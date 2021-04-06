@@ -1,5 +1,6 @@
 #feedback_container {
   .feedback_row {
+    padding: 20px 0;
     border-bottom: 2px solid #eaeaea;
     div {
       display: flex;
@@ -18,12 +19,15 @@
         }
       }
       img {
-        height: 70px;
-        width: 70px;
-        border-radius: 50%;
       }
     }
   }
+}
+.feedback_row > div > img {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+
 }
 .description {
   font-size: 35px;

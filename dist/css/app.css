@@ -602,6 +602,7 @@ footer .jumbo_btn_wrap .wrap .pulse_button a .icona_freccia {
 }
 
 #feedback_container .feedback_row {
+  padding: 20px 0;
   border-bottom: 2px solid #eaeaea;
 }
 #feedback_container .feedback_row div {
@@ -620,7 +621,7 @@ footer .jumbo_btn_wrap .wrap .pulse_button a .icona_freccia {
 #feedback_container .feedback_row div .wrap h3 {
   font-size: 30px;
 }
-#feedback_container .feedback_row div img {
+.feedback_row > div > img {
   height: 70px;
   width: 70px;
   border-radius: 50%;
