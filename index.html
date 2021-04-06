@@ -15,7 +15,7 @@
 
       <!-- NAV -->
       <nav id="main_nav" class="jl_container">
-        <a href="" v-if="!toggle" @click="toggleFunction">home</a>
+        <a id="back_button" href="" v-if="!toggle" @click="toggleFunction"><i class="fas fa-arrow-left"></i></a>
         <div>
           <img src="logo_sj.jpg" alt="">
         </div>
@@ -205,7 +205,6 @@
         <div style="background-color: #eaeaea">
           <section id="feedback_section" class="jl_container">
             <h2>RECENSIONI</h2>
-            <hr>
             <div class="feedback_container">
               <div class="left">
                 <div class="feedback_card">
