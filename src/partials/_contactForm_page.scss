@@ -1,0 +1,102 @@
+#form_contact_page{
+  background-color: #87c596;
+  padding: 1rem;
+  .card{
+      border-radius: 1rem;
+      padding: 1rem;
+      img{
+          width: 70%;
+      }
+      .spedizione{
+          background-color:green;
+          position: relative;
+          i{
+              position: absolute;
+              left: 0.5rem;
+              color: green;
+              background-color: white;
+              padding: 1%;
+              border-radius: 100%;
+          }
+          h4{
+              margin-bottom: 0;
+          }
+      }
+      .pagamento{
+          background-color:lightgray;
+      }
+      .pulse_button{
+          position: relative;
+          .submit_btn{
+              text-decoration: none;
+              background-color: #fd9f29;
+              width: 100%;
+              color: #fff;
+              font-size: 20px;
+              border-radius: 12px;
+              cursor: pointer;
+              border: 0;
+              display: inline-block;
+              animation: pulse-animation 1.3s infinite;
+              .icona_freccia{
+                  position: absolute;
+                  right: 1.5rem;
+                  top: 0.2rem;
+                  border-radius: 100%;
+                  color: black;
+                  font-size: 1rem;
+                  background-color: white;
+              }
+          }
+          @keyframes pulse-animation {
+              0% {
+                  transform: scale(.9);
+              }
+              70% {
+                  transform: scale(1);
+              }
+              100% {
+                  transform: scale(.9);
+              }
+          }
+      }
+  }
+  .prezzo_originale{
+      position: relative;
+      font-size: 2rem;
+      background-color: #eaeaea;
+      border-radius: 0.5rem 0 0 0.5rem;
+      padding: 0 1rem;
+      &:after {
+          content: "";
+          width: 100%;
+          height: 3px;
+          border-radius: 15px;
+          background-color: #e15858;
+          position: absolute;
+          transform: rotate(-17deg);
+          left: 0px;
+          top: 20px;
+      }
+  }
+
+  .sconto{
+      font-size: 2rem;
+      background-color: #87c596;
+      border-radius: 0 0.5rem 0.5rem 0;
+      padding: 0 1rem;
+  }
+  .icona_freccia{
+      font-size: 1rem;
+      background-color: #eaeaea;
+      border-radius: 100%;
+      padding: 0 0.4rem;
+      vertical-align: super;
+  }
+  .prezzo_finale{
+      font-size: 2rem;
+      background-color: #fd9f29;
+      border-radius: 0.5rem ;
+      padding: 0 1rem;
+  }
+}

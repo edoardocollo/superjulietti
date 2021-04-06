@@ -631,11 +631,19 @@ vue__WEBPACK_IMPORTED_MODULE_0__.default.component('carousel8', __webpack_requir
 var app = new vue__WEBPACK_IMPORTED_MODULE_0__.default({
   el: '#app',
   data: {
-    toggle: true
+    toggle: true,
+    toggleFeedback: false,
+    toggleContact: false
   },
   methods: {
     toggleFunction: function toggleFunction() {
       this.toggle = !this.toggle;
+      this.toggleFeedback = !this.toggleFeedback;
+      window.scrollTo(0, 0);
+    },
+    toggleContactFunction: function toggleContactFunction() {
+      this.toggle = !this.toggle;
+      this.toggleContact = !this.toggleContact;
       window.scrollTo(0, 0);
     }
   }

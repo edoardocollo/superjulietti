@@ -13,10 +13,18 @@ let app = new Vue({
   el: '#app',
   data:{
     toggle:true,
+    toggleFeedback:false,
+    toggleContact:false,
   },
   methods:{
     toggleFunction: function(){
       this.toggle = !this.toggle;
+      this.toggleFeedback = !this.toggleFeedback;
+      window.scrollTo(0, 0);
+    },
+    toggleContactFunction: function(){
+      this.toggle = !this.toggle;
+      this.toggleContact = !this.toggleContact
       window.scrollTo(0, 0);
     }
   },
