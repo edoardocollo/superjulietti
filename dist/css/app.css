@@ -35,7 +35,6 @@
   color: #2c5e53;
   height: 473px;
   background-color: #d4fec9;
-  border: 1px solid black;
 }
 #jumbotron .wrap {
   display: flex;
@@ -190,8 +189,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  bottom: 0;
   width: 100%;
   color: white;
   height: 40px;
@@ -266,6 +263,10 @@
   100% {
     transform: scale(0.9);
   }
+}
+
+#carousel_section > #carousel_box {
+  background-color: white !important;
 }
 
 /* FEEDBACK SECTION */
