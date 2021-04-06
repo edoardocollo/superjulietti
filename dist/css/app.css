@@ -17,6 +17,7 @@
 #main_nav {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   height: 95px;
   background-color: white;
   border-bottom: 2px solid #b7cbb5;
@@ -39,6 +40,27 @@
   background-color: #81C594;
   text-decoration: none;
   color: white;
+}
+
+#main_nav #counter {
+  height: 70px;
+  width: 370px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #2c5e53;
+  background-color: #DAF1EB;
+  border-radius: 10px;
+  padding: 10px;
+}
+#main_nav #counter .views {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid lightgrey;
+}
+#main_nav #counter i {
+  color: #FAD345;
 }
 
 /* JUMBOTRON */

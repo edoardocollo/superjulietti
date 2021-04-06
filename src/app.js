@@ -15,6 +15,7 @@ let app = new Vue({
     toggle:true,
     toggleFeedback:false,
     toggleContact:false,
+    views:9990425.10,
   },
   methods:{
     toggleFunction: function(){
@@ -28,4 +29,12 @@ let app = new Vue({
       window.scrollTo(0, 0);
     }
   },
+  mounted(){
+    let self = this;
+    setInterval(function(){
+      console.log('ciao');
+      self.views = self.views + Math.random();
+    }, 400);
+  }
 });
+// Math.floor(Math.random() * (2000 - 900) ) + 900)

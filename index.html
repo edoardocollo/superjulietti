@@ -15,10 +15,14 @@
 
       <!-- NAV -->
       <nav id="main_nav" class="jl_container">
-        <a id="back_button" href="" v-if="toggleFeedback" @click="toggleFunction"><i class="fas fa-arrow-left"></i></a>
-        <a id="back_button" href="" v-if="toggleContact" @click="toggleContactFunction"><i class="fas fa-arrow-left"></i></a>
         <div>
+          <a id="back_button" href="" v-if="toggleFeedback" @click="toggleFunction"><i class="fas fa-arrow-left"></i></a>
+          <a id="back_button" href="" v-if="toggleContact" @click="toggleContactFunction"><i class="fas fa-arrow-left"></i></a>
           <img src="logo_sj.jpg" alt="">
+        </div>
+        <div id="counter">
+          <span class="views">Visualizzazioni <strong>{{Math.floor(views)}}</strong> </span>
+          <span>Valutazione Clienti: <strong>4,9/5</strong> <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
         </div>
       </nav>
 

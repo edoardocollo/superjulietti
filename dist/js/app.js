@@ -633,7 +633,8 @@ var app = new vue__WEBPACK_IMPORTED_MODULE_0__.default({
   data: {
     toggle: true,
     toggleFeedback: false,
-    toggleContact: false
+    toggleContact: false,
+    views: 9990425.10
   },
   methods: {
     toggleFunction: function toggleFunction() {
@@ -646,8 +647,15 @@ var app = new vue__WEBPACK_IMPORTED_MODULE_0__.default({
       this.toggleContact = !this.toggleContact;
       window.scrollTo(0, 0);
     }
+  },
+  mounted: function mounted() {
+    var self = this;
+    setInterval(function () {
+      console.log('ciao');
+      self.views = self.views + Math.random();
+    }, 400);
   }
-});
+}); // Math.floor(Math.random() * (2000 - 900) ) + 900)
 
 /***/ }),
 
