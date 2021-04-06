@@ -36,7 +36,6 @@
     width: 378px!important;
     margin: 0 10px;
     background-color: white;
-    border: 1px solid black;
     padding: 20px;
     div{
       display: flex;
@@ -65,4 +64,66 @@
 }
 .hooper {
   height: 340px !important;
+}
+
+
+.feedback_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  .card_title {
+    display: block;
+    font-size: 23px;
+    font-weight: bold;
+    i {
+      color: #FAD345;
+    }
+  }
+  h4 {
+    font-size: 20px;
+  }
+  span {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    div {
+      width: 55%;
+      background-color: #EAEAEA;
+      div {
+        height: 100%;
+        background-color: #FAD345;
+      }
+    }
+  }
+
+}
+#pulse_button_feedback{
+    position: relative;
+    a{
+        display: flex !important;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        text-decoration: none;
+        background-color: #fd9f29;
+        width: 200px;
+        color: #fff;
+        font-size: 20px;
+        border-radius: 12px;
+        cursor: pointer;
+        border: 0;
+        display: inline-block;
+        .icona_freccia{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+            width: 25px;
+            height: 25px;
+            border-radius: 100%;
+            color: black;
+            font-size: 1rem;
+            background-color: white;
+        }
+    }
 }
