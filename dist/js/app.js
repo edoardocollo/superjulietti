@@ -34,6 +34,211 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
@@ -186,29 +391,6 @@ ___CSS_LOADER_EXPORT___.push([module.id, ".hooper-slide {\n  flex-shrink: 0;\n  
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./Carousel.vue?vue&type=style&index=0&lang=css&":
-/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./Carousel.vue?vue&type=style&index=0&lang=css& ***!
-  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************/
-/***/ ((module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
-/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
-// Imports
-
-var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
-// Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n#carousel_box {\r\nmargin:auto;\r\nheight:316px;\n}\n.slide {\r\n  display:flex;\r\n  justify-content:center;\r\n  align-items:center;\n}\n.slide > img {\r\n  width:90%;\r\n  border:7px solid #c2e1ca;\r\n  margin:auto;\n}\r\n", ""]);
-// Exports
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
-
-
-/***/ }),
-
 /***/ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./Carousel2.vue?vue&type=style&index=0&lang=css&":
 /*!************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./Carousel2.vue?vue&type=style&index=0&lang=css& ***!
@@ -225,7 +407,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n#carousel_box {\r\nwidth:70%;\r\nmargin:auto;\r\nheight:240px;\n}\n.slide {\r\n  display:flex;\r\n  justify-content:center;\r\n  align-items:center;\n}\n.slide > img {\r\n  width:90%;\r\n  border:7px solid #c2e1ca;\r\n  margin:auto;\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n#carousel_box {\nwidth:70%;\nmargin:auto;\nheight:240px;\n}\n.slide {\n  display:flex;\n  justify-content:center;\n  align-items:center;\n}\n.slide > img {\n  width:90%;\n  border:7px solid #c2e1ca;\n  margin:auto;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -1527,35 +1709,6 @@ var update = _style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMP
 
 /***/ }),
 
-/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./Carousel.vue?vue&type=style&index=0&lang=css&":
-/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./Carousel.vue?vue&type=style&index=0&lang=css& ***!
-  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Carousel_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./Carousel.vue?vue&type=style&index=0&lang=css& */ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./Carousel.vue?vue&type=style&index=0&lang=css&");
-
-            
-
-var options = {};
-
-options.insert = "head";
-options.singleton = false;
-
-var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Carousel_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_1__.default, options);
-
-
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Carousel_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_1__.default.locals || {});
-
-/***/ }),
-
 /***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./Carousel2.vue?vue&type=style&index=0&lang=css&":
 /*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./Carousel2.vue?vue&type=style&index=0&lang=css& ***!
@@ -1875,17 +2028,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _Carousel_vue_vue_type_template_id_3955030e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Carousel.vue?vue&type=template&id=3955030e& */ "./Carousel.vue?vue&type=template&id=3955030e&");
 /* harmony import */ var _Carousel_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Carousel.vue?vue&type=script&lang=js& */ "./Carousel.vue?vue&type=script&lang=js&");
-/* harmony import */ var _Carousel_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Carousel.vue?vue&type=style&index=0&lang=css& */ "./Carousel.vue?vue&type=style&index=0&lang=css&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !./node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !./node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
-;
 
 
 /* normalize component */
-
-var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__.default)(
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
   _Carousel_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
   _Carousel_vue_vue_type_template_id_3955030e___WEBPACK_IMPORTED_MODULE_0__.render,
   _Carousel_vue_vue_type_template_id_3955030e___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
@@ -1973,18 +2124,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./Carousel.vue?vue&type=style&index=0&lang=css&":
-/*!*******************************************************!*\
-  !*** ./Carousel.vue?vue&type=style&index=0&lang=css& ***!
-  \*******************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Carousel_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./Carousel.vue?vue&type=style&index=0&lang=css& */ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./Carousel.vue?vue&type=style&index=0&lang=css&");
-
-
-/***/ }),
-
 /***/ "./Carousel2.vue?vue&type=style&index=0&lang=css&":
 /*!********************************************************!*\
   !*** ./Carousel2.vue?vue&type=style&index=0&lang=css& ***!
@@ -2049,23 +2188,531 @@ var render = function() {
     { attrs: { itemsToShow: 2, id: "carousel_box" } },
     [
       _c("slide", { staticClass: "slide" }, [
-        _c("img", { attrs: { src: "img/slider001.jpg", alt: "" } })
+        _c("div", {}, [
+          _c("img", { attrs: { src: "img/user8.jpg", alt: "" } }),
+          _vm._v(" "),
+          _c("h3", [_vm._v("SANDRA BONZI")]),
+          _vm._v(" "),
+          _c("span", { staticClass: "star_wrap" }, [
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" })
+          ]),
+          _vm._v(" "),
+          _c("span", [_vm._v("5 Aprile 2021")]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "Mi sono innamorata di questa affetta verdure! Da quando l’ho presa ho ricominciato a mangiare più sano perché riesco ad affettare le verdure in pochi secondi, creando piatti molto originali. Poi è davvero semplice anche da lavare perché va in lavastoviglie. Lo consiglio!"
+            )
+          ])
+        ])
       ]),
       _vm._v(" "),
       _c("slide", { staticClass: "slide" }, [
-        _c("img", { attrs: { src: "img/slider002.jpg", alt: "" } })
+        _c("div", {}, [
+          _c("img", { attrs: { src: "img/user3.jpg", alt: "" } }),
+          _vm._v(" "),
+          _c("h3", [_vm._v("ANNA MARIA OMBRINI")]),
+          _vm._v(" "),
+          _c("span", { staticClass: "star_wrap" }, [
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star gray" })
+          ]),
+          _vm._v(" "),
+          _c("span", [_vm._v("4 Aprile 2021")]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "Da diversi anni ho iniziato una dieta vegetariana insieme a mia figlia più grande e la Super Julietti ci aiuta a cucinare in modo divertente! Abbiamo provato diverse ricette, come gli spaghetti di zucchine e le patate a spirale. Davvero eccezionali!"
+            )
+          ])
+        ])
       ]),
       _vm._v(" "),
       _c("slide", { staticClass: "slide" }, [
-        _c("img", { attrs: { src: "img/slider003.jpg", alt: "" } })
+        _c("div", {}, [
+          _c("img", { attrs: { src: "", alt: "" } }),
+          _vm._v(" "),
+          _c("h3", [_vm._v("FRANCESCA MORETTI")]),
+          _vm._v(" "),
+          _c("span", { staticClass: "star_wrap" }, [
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" })
+          ]),
+          _vm._v(" "),
+          _c("span", [_vm._v("2 Aprile 2021")]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              " Ho scoperto Super Julietti grazie a una mia amica che mi aveva invitato a cena servendomi degli spaghetti di zucchine. Ho deciso di comprarlo anche io e sono super soddisfatta! E’ uno strumento completo, si gira senza far fatica e affetti di tutto!"
+            )
+          ])
+        ])
       ]),
       _vm._v(" "),
       _c("slide", { staticClass: "slide" }, [
-        _c("img", { attrs: { src: "img/slider004.jpg", alt: "" } })
+        _c("div", {}, [
+          _c("img", { attrs: { src: "img/user2.jpg", alt: "" } }),
+          _vm._v(" "),
+          _c("h3", [_vm._v("SILVIA TOMEI")]),
+          _vm._v(" "),
+          _c("span", { staticClass: "star_wrap" }, [
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" })
+          ]),
+          _vm._v(" "),
+          _c("span", [_vm._v("1 Aprile 2021")]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "Bellissimo accessorio da avere, soprattutto se si ha poco tempo da dedicare alla cucina. In pochi secondi riesci a preparare le verdure alla julienne o a rondelle, in più il contenitore è pratico per tenere tutto in frigo. Lo consiglio. "
+            )
+          ])
+        ])
       ]),
       _vm._v(" "),
       _c("slide", { staticClass: "slide" }, [
-        _c("img", { attrs: { src: "img/slider005.jpg", alt: "" } })
+        _c("div", {}, [
+          _c("img", { attrs: { src: "", alt: "" } }),
+          _vm._v(" "),
+          _c("h3", [_vm._v("ANDREA LURGO")]),
+          _vm._v(" "),
+          _c("span", { staticClass: "star_wrap" }, [
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" })
+          ]),
+          _vm._v(" "),
+          _c("span", [_vm._v("27 Marzo 2021")]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "Strumento molto pratico soprattutto per preparare carote o zucchine o affettare le cipolle in poco tempo. Lo utilizzo soprattutto per preparare insalatone o contorni, ma ho scoperto anche la possibilità di fare spaghetti di zucchine. Se non l’avete fatto, provateli!"
+            )
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("slide", { staticClass: "slide" }, [
+        _c("div", {}, [
+          _c("img", { attrs: { src: "img/user4.jpg", alt: "" } }),
+          _vm._v(" "),
+          _c("h3", [_vm._v("ROBERTA BELTRAMI")]),
+          _vm._v(" "),
+          _c("span", { staticClass: "star_wrap" }, [
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star gray" })
+          ]),
+          _vm._v(" "),
+          _c("span", [_vm._v("27 Marzo 2021")]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "Mi ha salvato la vita! Ogni volta perdevo tantissimo tempo a preparare le verdure in modo ‘accettabile’ per i miei figli ma con il Super Giletti ogni volta è diventata un’avventura. E’ divertente e le sue forme hanno conquistato i miei bambini. Lo adorano!"
+            )
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("slide", { staticClass: "slide" }, [
+        _c("div", {}, [
+          _c("img", { attrs: { src: "img/user12.jpg", alt: "" } }),
+          _vm._v(" "),
+          _c("h3", [_vm._v("FABRIZIO COLA ")]),
+          _vm._v(" "),
+          _c("span", { staticClass: "star_wrap" }, [
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" })
+          ]),
+          _vm._v(" "),
+          _c("span", [_vm._v("25 Marzo 2021")]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "Praticissimo per preparare le verdure al volo. Le lame in acciaio inossidabile si possono cambiare con semplicità, sono facile da pulire e tagliano ogni tipo di verdura. Ne ho provati diversi, ma nessuno è così facile da utilizzare. Stra-consigliato"
+            )
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("slide", { staticClass: "slide" }, [
+        _c("div", {}, [
+          _c("img", { attrs: { src: "img/user11.jpg", alt: "" } }),
+          _vm._v(" "),
+          _c("h3", [_vm._v("LUCIA MORASCHETTI")]),
+          _vm._v(" "),
+          _c("span", { staticClass: "star_wrap" }, [
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" })
+          ]),
+          _vm._v(" "),
+          _c("span", [_vm._v("25 Marzo 2021")]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "Affettatrice a spirale comoda da usare con patate, zucchine, pomodori, cipolle e carote (che amo tantissimo alla julienne!!!!). La manopola è semplice da girare e non fai per niente fatica. Il rapporto qualità prezzo secondo me è ottimo, anche perché ne ho presi due al prezzo di uno e sono eccezionali!"
+            )
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("slide", { staticClass: "slide" }, [
+        _c("div", {}, [
+          _c("img", { attrs: { src: "img/user13.jpg", alt: "" } }),
+          _vm._v(" "),
+          _c("h3", [_vm._v("CARLOTTA PAGANI")]),
+          _vm._v(" "),
+          _c("span", { staticClass: "star_wrap" }, [
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" })
+          ]),
+          _vm._v(" "),
+          _c("span", [_vm._v("24 Marzo 2021")]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              " Veloce, leggero, facile da usare e da pulire. Super Julietti è stato una vera scoperta. Lo uso per fare spaghetti di verdura, fare rondelle da mettere su torte salate, ma anche per preparare contorni e le patate in maniera artistica. I miei ospiti a cena restano sempre senza parole."
+            )
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("slide", { staticClass: "slide" }, [
+        _c("div", {}, [
+          _c("img", { attrs: { src: "img/user9.jpg", alt: "" } }),
+          _vm._v(" "),
+          _c("h3", [_vm._v("ILARIA DESSENA")]),
+          _vm._v(" "),
+          _c("span", { staticClass: "star_wrap" }, [
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star gray" })
+          ]),
+          _vm._v(" "),
+          _c("span", [_vm._v("22 Marzo 2021")]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              " Arrivato questa mattina e l ho già usato per preparare il pranzo. Ho fatto insalatone con carote alla julienne e zucchine. Affetta tutto in modo veloce e non fai fatica perché giri solo la manovella. FANTASTICO. "
+            )
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("slide", { staticClass: "slide" }, [
+        _c("div", {}, [
+          _c("img", { attrs: { src: "img/user7.jpg", alt: "" } }),
+          _vm._v(" "),
+          _c("h3", [_vm._v("EMMA PADALINA ")]),
+          _vm._v(" "),
+          _c("span", { staticClass: "star_wrap" }, [
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" })
+          ]),
+          _vm._v(" "),
+          _c("span", [_vm._v("21 Marzo 2021")]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              " Lo aspettavo ormai da due giorni e quando il corriere me l’ha portato a casa quasi l’ho abbracciatooooo. Contavo tanto su Super Julietti per preparare la cena con i suoceri e oggi farò qualche prova tecnica. Dal primo impatto sembra cmq molto resistente."
+            )
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("slide", { staticClass: "slide" }, [
+        _c("div", {}, [
+          _c("img", { attrs: { src: "img/user6.jpg", alt: "" } }),
+          _vm._v(" "),
+          _c("h3", [_vm._v("LUISA ACCORTO")]),
+          _vm._v(" "),
+          _c("span", { staticClass: "star_wrap" }, [
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" })
+          ]),
+          _vm._v(" "),
+          _c("span", [_vm._v("20 Marzo 2021")]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "  Spedizione veloce, ho pagato alla consegna e ho approfittato del 2x1 per dividere la spesa con mia mamma. Utile davvero tanto anche per preparare chips di mele per i bambini. Si usa con facilità e una volta sistemata la verdura la possono usare anche i piccoli perché è molto sicuro girare la manovella!!"
+            )
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("slide", { staticClass: "slide" }, [
+        _c("div", {}, [
+          _c("img", { attrs: { src: "img/user5.jpg", alt: "" } }),
+          _vm._v(" "),
+          _c("h3", [_vm._v("ANNAMARIA RASCHI ")]),
+          _vm._v(" "),
+          _c("span", { staticClass: "star_wrap" }, [
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" })
+          ]),
+          _vm._v(" "),
+          _c("span", [_vm._v("16 Marzo 2021")]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "Bell’invenzione! E’ facile da usare, taglia tutte le verdure (almeno quelle che ho provato fino ad ora ;) ) e mi ha fatto fare bella figura con le mie compagne di yoga. Bellissimi piatti e molto originali, effetto sorpresa assicurato!! "
+            )
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("slide", { staticClass: "slide" }, [
+        _c("div", {}, [
+          _c("img", { attrs: { src: "img/user1.jpg", alt: "" } }),
+          _vm._v(" "),
+          _c("h3", [_vm._v("LUCREZIA ORFANINI")]),
+          _vm._v(" "),
+          _c("span", { staticClass: "star_wrap" }, [
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star gray" })
+          ]),
+          _vm._v(" "),
+          _c("span", [_vm._v("16 Marzo 2021")]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              " Ho sempre visto in tv tutti quei piatti carini, affettati in modo perfetto e ho sempre pensato che sarebbe servito un super chef per farli. Invece su internet ho trovato questo aggeggino che fa tutto con una manovella. E’ comodo e non ingombra nemmeno un po’. Lo consiglio   "
+            )
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("slide", { staticClass: "slide" }, [
+        _c("div", {}, [
+          _c("img", { attrs: { src: "img/user10.jpg", alt: "" } }),
+          _vm._v(" "),
+          _c("h3", [_vm._v("ROBERTTO NENCIONI")]),
+          _vm._v(" "),
+          _c("span", { staticClass: "star_wrap" }, [
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" })
+          ]),
+          _vm._v(" "),
+          _c("span", [_vm._v("15 Marzo 2021")]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              " Il regalo più azzeccato per mia moglie è stato questo. Mi stava facendo i buchi da un po’, l’ho ammetto, così ne ho comprati due (uno per lei e uno lo abbiamo dato a nostra figlia all’Università). Comodo e permette di variare un po’ il menù. Idea molto simpatica."
+            )
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("slide", { staticClass: "slide" }, [
+        _c("div", {}, [
+          _c("img", { attrs: { src: "img/user14.jpg", alt: "" } }),
+          _vm._v(" "),
+          _c("h3", [_vm._v("LAURA TURINI")]),
+          _vm._v(" "),
+          _c("span", { staticClass: "star_wrap" }, [
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" })
+          ]),
+          _vm._v(" "),
+          _c("span", [_vm._v("15 Marzo 2021")]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "Veloce da usare e per realizzare piatti vegani è una vera comodità! Finalmente posso scatenare la fantasia e affettare in pochi secondi senza diventare matta. Ho già provato con carote, zucchine e cipolle. Risultati super!!!"
+            )
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("slide", { staticClass: "slide" }, [
+        _c("div", {}, [
+          _c("img", { attrs: { src: "img/user15.jpg", alt: "" } }),
+          _vm._v(" "),
+          _c("h3", [_vm._v("SIMONA VALENTINI")]),
+          _vm._v(" "),
+          _c("span", { staticClass: "star_wrap" }, [
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" })
+          ]),
+          _vm._v(" "),
+          _c("span", [_vm._v("12 Marzo 2021")]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "Comodo comodissimo!!! Ho sempre detestato pulire le verdure e con questo attrezzo faccio tutto in pochi secondi. Consigliato da una mia collega (sempre sul pezzo), io mi trovo molto molto bene. "
+            )
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("slide", { staticClass: "slide" }, [
+        _c("div", {}, [
+          _c("img", { attrs: { src: "img/user16.jpg", alt: "" } }),
+          _vm._v(" "),
+          _c("h3", [_vm._v("GIADA MANCINI")]),
+          _vm._v(" "),
+          _c("span", { staticClass: "star_wrap" }, [
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" })
+          ]),
+          _vm._v(" "),
+          _c("span", [_vm._v("12 Marzo 2021")]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "Penso che questo Super Julietti sia un’idea stratosferica. Arrivato ieri è molto intuitivo. Basta inserire la carota, zucchina o quello che vi piace e girare la manovella per tagliare tutto a fettine in pochissimo tempo. Grazie per permettermi di mangiare sano."
+            )
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("slide", { staticClass: "slide" }, [
+        _c("div", {}, [
+          _c("img", { attrs: { src: "img/user17.jpg", alt: "" } }),
+          _vm._v(" "),
+          _c("h3", [_vm._v("MARIA ADANI")]),
+          _vm._v(" "),
+          _c("span", { staticClass: "star_wrap" }, [
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" })
+          ]),
+          _vm._v(" "),
+          _c("span", [_vm._v("9 Marzo 2021")]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "Il miglior affetta verdure di sempre! Ne ho provati diversi, anche quelli che si comprano al mercato, ma si rompevano dopo due volte. Questo lo sto usando da tre mesi ed è perfetto come il primo giorno."
+            )
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("slide", { staticClass: "slide" }, [
+        _c("div", {}, [
+          _c("img", { attrs: { src: "img/user1.jpg", alt: "" } }),
+          _vm._v(" "),
+          _c("h3", [_vm._v("GIULIA GRASSI")]),
+          _vm._v(" "),
+          _c("span", { staticClass: "star_wrap" }, [
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" })
+          ]),
+          _vm._v(" "),
+          _c("span", [_vm._v("9 Marzo 2021")]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "La dieta mi stava uccidendo perché campavo a insalate. Ora invece con Super Julietti preparo dei piatti interessanti e originali in poco tempo. Buoni buonissimi anche gli spaghetti di zucchine che pubblicizzano tanto. Li ho pure provati! Ecco qui…"
+            )
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("slide", { staticClass: "slide" }, [
+        _c("div", {}, [
+          _c("img", { attrs: { src: "img/user4.jpg", alt: "" } }),
+          _vm._v(" "),
+          _c("h3", [_vm._v("ANNA PIANELLA")]),
+          _vm._v(" "),
+          _c("span", { staticClass: "star_wrap" }, [
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" })
+          ]),
+          _vm._v(" "),
+          _c("span", [_vm._v("6 Marzo 2021")]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "Pacchetto arrivato tutto intero! Molto molto utile e si usa con facilità. Già provato e funziona facilmente. Pensavo si facesse fatica ad affettare o girare la monopola ma non è così. Grazie per questa invenzione super perché posso cucinare sano."
+            )
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("slide", { staticClass: "slide" }, [
+        _c("div", {}, [
+          _c("img", { attrs: { src: "img/user6.jpg", alt: "" } }),
+          _vm._v(" "),
+          _c("h3", [_vm._v("ALBA RICCI")]),
+          _vm._v(" "),
+          _c("span", { staticClass: "star_wrap" }, [
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" }),
+            _c("i", { staticClass: "fas fa-star" })
+          ]),
+          _vm._v(" "),
+          _c("span", [_vm._v("3 Marzo 2021")]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              " Appena arrivato ho fatto le zucchine a spaghetto e mi sono piaciute tantissimo. Sono riuscita a far mangiare la verdura ai miei figli, mai successo prima. Sembra quasi un miracoloooooo. Bell’idea, consiglio di provare"
+            )
+          ])
+        ])
       ])
     ],
     1
