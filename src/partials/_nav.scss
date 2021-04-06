@@ -1,11 +1,18 @@
 /* MAINNAV */
+.nav_container {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  border-bottom: 2px solid #b7cbb5;
+  z-index: 100;
+}
 #main_nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 95px;
   background-color: white;
-  border-bottom: 2px solid #b7cbb5;
   div{
     display: flex;
     align-items: center;
