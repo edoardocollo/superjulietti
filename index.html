@@ -14,18 +14,22 @@
 
 
       <!-- NAV -->
-      <nav id="main_nav" class="jl_container">
-        <div>
-          <a id="back_button" href="" v-if="toggleFeedback" @click="toggleFunction"><i class="fas fa-arrow-left"></i></a>
-          <a id="back_button" href="" v-if="toggleContact" @click="toggleContactFunction"><i class="fas fa-arrow-left"></i></a>
-          <img src="logo_sj.jpg" alt="">
-        </div>
-        <div id="counter">
-          <span class="views">Visualizzazioni <strong>{{Math.floor(views)}}</strong> </span>
-          <span>Valutazione Clienti: <strong>4,9/5</strong> <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
-        </div>
-      </nav>
+      <div class="nav_container">
+        <nav id="main_nav" class="jl_container">
+          <div>
+            <a id="back_button" href="" v-if="toggleFeedback" @click="toggleFunction"><i class="fas fa-arrow-left"></i></a>
+            <a id="back_button" href="" v-if="toggleContact" @click="toggleContactFunction"><i class="fas fa-arrow-left"></i></a>
+            <img src="logo_sj.jpg" alt="">
+          </div>
+          <div id="counter">
+            <span class="views">Visualizzazioni <strong>{{Math.floor(views)}}</strong> </span>
+            <span>Valutazione Clienti: <strong>4,9/5</strong> <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+          </div>
+        </nav>
+      </div>
+      <div style="height:95px">
 
+      </div>
 
 
         <div class="uber_container" v-if="toggle">
