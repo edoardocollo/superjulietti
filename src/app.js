@@ -16,7 +16,7 @@ let app = new Vue({
     toggleFeedback:false,
     toggleContact:false,
     toggleMail:false,
-    views:9990425.10,
+    views:100.10,
   },
   methods:{
     toggleFunction: function(){

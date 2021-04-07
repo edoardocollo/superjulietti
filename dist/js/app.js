@@ -262,7 +262,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var hooper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! hooper */ "./node_modules/hooper/dist/hooper.esm.js");
-/* harmony import */ var hooper_dist_hooper_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! hooper/dist/hooper.css */ "./node_modules/hooper/dist/hooper.css");
 //
 //
 //
@@ -338,13 +337,26 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: 'App',
   components: {
     Hooper: hooper__WEBPACK_IMPORTED_MODULE_0__.Hooper,
-    Slide: hooper__WEBPACK_IMPORTED_MODULE_0__.Slide
+    Slide: hooper__WEBPACK_IMPORTED_MODULE_0__.Slide,
+    HooperProgress: hooper__WEBPACK_IMPORTED_MODULE_0__.Progress,
+    HooperPagination: hooper__WEBPACK_IMPORTED_MODULE_0__.Pagination,
+    HooperNavigation: hooper__WEBPACK_IMPORTED_MODULE_0__.Navigation
+  },
+  data: function data() {
+    return {
+      hooperSettings: {
+        itemsToShow: 3,
+        centerMode: false,
+        wheelControl: false,
+        autoPlay: true,
+        playSpeed: 2000
+      }
+    };
   }
 });
 
@@ -361,7 +373,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var hooper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! hooper */ "./node_modules/hooper/dist/hooper.esm.js");
-/* harmony import */ var hooper_dist_hooper_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! hooper/dist/hooper.css */ "./node_modules/hooper/dist/hooper.css");
 //
 //
 //
@@ -380,13 +391,26 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-
+//
+//
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: 'App',
   components: {
     Hooper: hooper__WEBPACK_IMPORTED_MODULE_0__.Hooper,
-    Slide: hooper__WEBPACK_IMPORTED_MODULE_0__.Slide
+    Slide: hooper__WEBPACK_IMPORTED_MODULE_0__.Slide,
+    HooperProgress: hooper__WEBPACK_IMPORTED_MODULE_0__.Progress,
+    HooperPagination: hooper__WEBPACK_IMPORTED_MODULE_0__.Pagination,
+    HooperNavigation: hooper__WEBPACK_IMPORTED_MODULE_0__.Navigation
+  },
+  data: function data() {
+    return {
+      hooperSettings: {
+        itemsToShow: 3,
+        centerMode: false,
+        wheelControl: false
+      }
+    };
   }
 });
 
@@ -403,7 +427,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var hooper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! hooper */ "./node_modules/hooper/dist/hooper.esm.js");
-/* harmony import */ var hooper_dist_hooper_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! hooper/dist/hooper.css */ "./node_modules/hooper/dist/hooper.css");
 //
 //
 //
@@ -422,13 +445,25 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-
+//
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: 'App',
   components: {
     Hooper: hooper__WEBPACK_IMPORTED_MODULE_0__.Hooper,
-    Slide: hooper__WEBPACK_IMPORTED_MODULE_0__.Slide
+    Slide: hooper__WEBPACK_IMPORTED_MODULE_0__.Slide,
+    HooperProgress: hooper__WEBPACK_IMPORTED_MODULE_0__.Progress,
+    HooperPagination: hooper__WEBPACK_IMPORTED_MODULE_0__.Pagination,
+    HooperNavigation: hooper__WEBPACK_IMPORTED_MODULE_0__.Navigation
+  },
+  data: function data() {
+    return {
+      hooperSettings: {
+        itemsToShow: 3,
+        centerMode: false,
+        wheelControl: false
+      }
+    };
   }
 });
 
@@ -445,7 +480,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var hooper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! hooper */ "./node_modules/hooper/dist/hooper.esm.js");
-/* harmony import */ var hooper_dist_hooper_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! hooper/dist/hooper.css */ "./node_modules/hooper/dist/hooper.css");
 //
 //
 //
@@ -467,13 +501,25 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-
+//
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: 'App',
   components: {
     Hooper: hooper__WEBPACK_IMPORTED_MODULE_0__.Hooper,
-    Slide: hooper__WEBPACK_IMPORTED_MODULE_0__.Slide
+    Slide: hooper__WEBPACK_IMPORTED_MODULE_0__.Slide,
+    HooperProgress: hooper__WEBPACK_IMPORTED_MODULE_0__.Progress,
+    HooperPagination: hooper__WEBPACK_IMPORTED_MODULE_0__.Pagination,
+    HooperNavigation: hooper__WEBPACK_IMPORTED_MODULE_0__.Navigation
+  },
+  data: function data() {
+    return {
+      hooperSettings: {
+        itemsToShow: 3,
+        centerMode: false,
+        wheelControl: false
+      }
+    };
   }
 });
 
@@ -490,7 +536,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var hooper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! hooper */ "./node_modules/hooper/dist/hooper.esm.js");
-/* harmony import */ var hooper_dist_hooper_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! hooper/dist/hooper.css */ "./node_modules/hooper/dist/hooper.css");
 //
 //
 //
@@ -509,13 +554,25 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-
+//
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: 'App',
   components: {
     Hooper: hooper__WEBPACK_IMPORTED_MODULE_0__.Hooper,
-    Slide: hooper__WEBPACK_IMPORTED_MODULE_0__.Slide
+    Slide: hooper__WEBPACK_IMPORTED_MODULE_0__.Slide,
+    HooperProgress: hooper__WEBPACK_IMPORTED_MODULE_0__.Progress,
+    HooperPagination: hooper__WEBPACK_IMPORTED_MODULE_0__.Pagination,
+    HooperNavigation: hooper__WEBPACK_IMPORTED_MODULE_0__.Navigation
+  },
+  data: function data() {
+    return {
+      hooperSettings: {
+        itemsToShow: 3,
+        centerMode: false,
+        wheelControl: false
+      }
+    };
   }
 });
 
@@ -532,7 +589,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var hooper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! hooper */ "./node_modules/hooper/dist/hooper.esm.js");
-/* harmony import */ var hooper_dist_hooper_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! hooper/dist/hooper.css */ "./node_modules/hooper/dist/hooper.css");
 //
 //
 //
@@ -554,13 +610,25 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-
+//
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: 'App',
   components: {
     Hooper: hooper__WEBPACK_IMPORTED_MODULE_0__.Hooper,
-    Slide: hooper__WEBPACK_IMPORTED_MODULE_0__.Slide
+    Slide: hooper__WEBPACK_IMPORTED_MODULE_0__.Slide,
+    HooperProgress: hooper__WEBPACK_IMPORTED_MODULE_0__.Progress,
+    HooperPagination: hooper__WEBPACK_IMPORTED_MODULE_0__.Pagination,
+    HooperNavigation: hooper__WEBPACK_IMPORTED_MODULE_0__.Navigation
+  },
+  data: function data() {
+    return {
+      hooperSettings: {
+        itemsToShow: 3,
+        centerMode: false,
+        wheelControl: false
+      }
+    };
   }
 });
 
@@ -577,7 +645,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var hooper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! hooper */ "./node_modules/hooper/dist/hooper.esm.js");
-/* harmony import */ var hooper_dist_hooper_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! hooper/dist/hooper.css */ "./node_modules/hooper/dist/hooper.css");
 //
 //
 //
@@ -599,13 +666,25 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-
+//
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: 'App',
   components: {
     Hooper: hooper__WEBPACK_IMPORTED_MODULE_0__.Hooper,
-    Slide: hooper__WEBPACK_IMPORTED_MODULE_0__.Slide
+    Slide: hooper__WEBPACK_IMPORTED_MODULE_0__.Slide,
+    HooperProgress: hooper__WEBPACK_IMPORTED_MODULE_0__.Progress,
+    HooperPagination: hooper__WEBPACK_IMPORTED_MODULE_0__.Pagination,
+    HooperNavigation: hooper__WEBPACK_IMPORTED_MODULE_0__.Navigation
+  },
+  data: function data() {
+    return {
+      hooperSettings: {
+        itemsToShow: 3,
+        centerMode: false,
+        wheelControl: false
+      }
+    };
   }
 });
 
@@ -635,7 +714,7 @@ var app = new vue__WEBPACK_IMPORTED_MODULE_0__.default({
     toggleFeedback: false,
     toggleContact: false,
     toggleMail: false,
-    views: 9990425.10
+    views: 100.10
   },
   methods: {
     toggleFunction: function toggleFunction() {
@@ -704,7 +783,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n#carousel_box {\nwidth:70%;\nmargin:auto;\nheight:240px;\n}\n.slide {\n  display:flex;\n  justify-content:center;\n  align-items:center;\n}\n.slide > img {\n  width:90%;\n  border:7px solid #c2e1ca;\n  margin:auto;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n#carousel_box {\nwidth:70%;\nmargin:auto;\nheight:240px;\n}\n.slide {\n  display:flex;\n  justify-content:center;\n  align-items:center;\n}\n.slide > img {\n  width:90%;\n  border:7px solid #c2e1ca;\n  margin:auto;\n}\n.hooper-next, .hooper-prev{\n  /* display:flex;\n  justify-content:center;\n  align-items:center; */\n  background:#2C5E53;\n  height:24px;\n  width:24px;\n}\n.hooper-next > svg, .hooper-prev > svg {\n  position:absolute;\n  top:50%;\n  left:50%;\n  transform:translate(-50% , -50%);\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -3849,7 +3928,7 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "hooper",
-    { attrs: { itemsToShow: 3, id: "carousel_box" } },
+    { attrs: { settings: _vm.hooperSettings } },
     [
       _c("slide", { staticClass: "slide" }, [
         _c("img", { attrs: { src: "img/slider001.jpg", alt: "" } })
@@ -3941,7 +4020,12 @@ var render = function() {
       _vm._v(" "),
       _c("slide", { staticClass: "slide" }, [
         _c("img", { attrs: { src: "img/slider023.jpg", alt: "" } })
-      ])
+      ]),
+      _vm._v(" "),
+      _c("hooper-navigation", {
+        attrs: { slot: "hooper-addons" },
+        slot: "hooper-addons"
+      })
     ],
     1
   )
@@ -3970,7 +4054,7 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "hooper",
-    { attrs: { itemsToShow: 3, id: "carousel_box" } },
+    { attrs: { settings: _vm.hooperSettings, id: "carousel_box" } },
     [
       _c("slide", { staticClass: "slide" }, [
         _c("img", { attrs: { src: "img/recensione001_f1.jpg", alt: "" } })
@@ -3986,7 +4070,17 @@ var render = function() {
       _vm._v(" "),
       _c("slide", { staticClass: "slide" }, [
         _c("img", { attrs: { src: "img/recensione001_f4.jpg", alt: "" } })
-      ])
+      ]),
+      _vm._v(" "),
+      _c("hooper-navigation", {
+        attrs: { slot: "hooper-addons" },
+        slot: "hooper-addons"
+      }),
+      _vm._v(" "),
+      _c("hooper-navigation", {
+        attrs: { slot: "hooper-addons" },
+        slot: "hooper-addons"
+      })
     ],
     1
   )
@@ -4015,7 +4109,7 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "hooper",
-    { attrs: { itemsToShow: 3, id: "carousel_box" } },
+    { attrs: { settings: _vm.hooperSettings, id: "carousel_box" } },
     [
       _c("slide", { staticClass: "slide" }, [
         _c("img", { attrs: { src: "img/recensione002_f1.jpg", alt: "" } })
@@ -4031,7 +4125,12 @@ var render = function() {
       _vm._v(" "),
       _c("slide", { staticClass: "slide" }, [
         _c("img", { attrs: { src: "img/recensione002_f4.jpg", alt: "" } })
-      ])
+      ]),
+      _vm._v(" "),
+      _c("hooper-navigation", {
+        attrs: { slot: "hooper-addons" },
+        slot: "hooper-addons"
+      })
     ],
     1
   )
@@ -4060,7 +4159,7 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "hooper",
-    { attrs: { itemsToShow: 3, id: "carousel_box" } },
+    { attrs: { settings: _vm.hooperSettings, id: "carousel_box" } },
     [
       _c("slide", { staticClass: "slide" }, [
         _c("img", { attrs: { src: "img/recensione003_f1.jpg", alt: "" } })
@@ -4080,7 +4179,12 @@ var render = function() {
       _vm._v(" "),
       _c("slide", { staticClass: "slide" }, [
         _c("img", { attrs: { src: "img/recensione003_f5.jpg", alt: "" } })
-      ])
+      ]),
+      _vm._v(" "),
+      _c("hooper-navigation", {
+        attrs: { slot: "hooper-addons" },
+        slot: "hooper-addons"
+      })
     ],
     1
   )
@@ -4109,7 +4213,7 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "hooper",
-    { attrs: { itemsToShow: 3, id: "carousel_box" } },
+    { attrs: { settings: _vm.hooperSettings, id: "carousel_box" } },
     [
       _c("slide", { staticClass: "slide" }, [
         _c("img", { attrs: { src: "img/recensione004_f1.jpg", alt: "" } })
@@ -4125,7 +4229,12 @@ var render = function() {
       _vm._v(" "),
       _c("slide", { staticClass: "slide" }, [
         _c("img", { attrs: { src: "img/recensione004_f4.jpg", alt: "" } })
-      ])
+      ]),
+      _vm._v(" "),
+      _c("hooper-navigation", {
+        attrs: { slot: "hooper-addons" },
+        slot: "hooper-addons"
+      })
     ],
     1
   )
@@ -4154,7 +4263,7 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "hooper",
-    { attrs: { itemsToShow: 3, id: "carousel_box" } },
+    { attrs: { settings: _vm.hooperSettings, id: "carousel_box" } },
     [
       _c("slide", { staticClass: "slide" }, [
         _c("img", { attrs: { src: "img/recensione005_f1.jpg", alt: "" } })
@@ -4174,7 +4283,12 @@ var render = function() {
       _vm._v(" "),
       _c("slide", { staticClass: "slide" }, [
         _c("img", { attrs: { src: "img/recensione005_f5.jpg", alt: "" } })
-      ])
+      ]),
+      _vm._v(" "),
+      _c("hooper-navigation", {
+        attrs: { slot: "hooper-addons" },
+        slot: "hooper-addons"
+      })
     ],
     1
   )
@@ -4203,7 +4317,7 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "hooper",
-    { attrs: { itemsToShow: 3, id: "carousel_box" } },
+    { attrs: { settings: _vm.hooperSettings, id: "carousel_box" } },
     [
       _c("slide", { staticClass: "slide" }, [
         _c("img", { attrs: { src: "img/recensione006_f1.jpg", alt: "" } })
@@ -4223,7 +4337,12 @@ var render = function() {
       _vm._v(" "),
       _c("slide", { staticClass: "slide" }, [
         _c("img", { attrs: { src: "img/recensione006_f5.jpg", alt: "" } })
-      ])
+      ]),
+      _vm._v(" "),
+      _c("hooper-navigation", {
+        attrs: { slot: "hooper-addons" },
+        slot: "hooper-addons"
+      })
     ],
     1
   )

@@ -1,5 +1,5 @@
 <template>
-  <hooper :itemsToShow="3" id="carousel_box">
+  <hooper :settings="hooperSettings" >
     <slide class="slide">
       <img src="img/slider001.jpg" alt="">
     </slide>
@@ -69,19 +69,39 @@
     <slide class="slide">
       <img src="img/slider023.jpg" alt="">
     </slide>
-
+    <hooper-navigation slot="hooper-addons"></hooper-navigation>
   </hooper>
 </template>
 
 <script>
-import { Hooper, Slide } from 'hooper';
-import 'hooper/dist/hooper.css';
+
+import {
+  Hooper,
+  Slide,
+  Progress as HooperProgress,
+  Pagination as HooperPagination,
+  Navigation as HooperNavigation
+} from 'hooper';
 
 export default {
   name: 'App',
   components: {
     Hooper,
-    Slide
+    Slide,
+    HooperProgress,
+    HooperPagination,
+    HooperNavigation
+  },
+  data() {
+    return {
+      hooperSettings: {
+        itemsToShow: 3,
+        centerMode: false,
+        wheelControl: false,
+        autoPlay:true,
+        playSpeed:2000,
+      }
+    };
   }
 };
 </script>
@@ -100,5 +120,20 @@ height:240px;
   width:90%;
   border:7px solid #c2e1ca;
   margin:auto;
+}
+.hooper-next, .hooper-prev{
+  /* display:flex;
+  justify-content:center;
+  align-items:center; */
+  background:#2C5E53;
+  height:24px;
+  width:24px;
+}
+.hooper-next > svg, .hooper-prev > svg {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50% , -50%);
+
 }
 </style>

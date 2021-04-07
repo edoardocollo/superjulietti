@@ -1,5 +1,5 @@
 <template>
-  <hooper :itemsToShow="3" id="carousel_box">
+  <hooper :settings="hooperSettings" id="carousel_box">
     <slide class="slide">
       <img src="img/recensione004_f1.jpg" alt="">
     </slide>
@@ -13,18 +13,37 @@
       <img src="img/recensione004_f4.jpg" alt="">
     </slide>
 
+    <hooper-navigation slot="hooper-addons"></hooper-navigation>
   </hooper>
 </template>
 
 <script>
-import { Hooper, Slide } from 'hooper';
-import 'hooper/dist/hooper.css';
+
+import {
+  Hooper,
+  Slide,
+  Progress as HooperProgress,
+  Pagination as HooperPagination,
+  Navigation as HooperNavigation
+} from 'hooper';
 
 export default {
   name: 'App',
   components: {
     Hooper,
-    Slide
+    Slide,
+    HooperProgress,
+    HooperPagination,
+    HooperNavigation
+  },
+  data() {
+    return {
+      hooperSettings: {
+        itemsToShow: 3,
+        centerMode: false,
+        wheelControl: false,
+      }
+    };
   }
 };
 </script>
