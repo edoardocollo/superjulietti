@@ -12,7 +12,9 @@
           position: relative;
           i{
               position: absolute;
-              left: 0.5rem;
+              top: 50%;
+              left: 1%;
+              transform: translateY(-50%);
               color: green;
               background-color: white;
               padding: 1%;
