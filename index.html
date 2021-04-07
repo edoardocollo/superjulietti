@@ -19,6 +19,7 @@
           <div>
             <a id="back_button" href="" v-if="toggleFeedback" @click="toggleFunction"><i class="fas fa-arrow-left"></i></a>
             <a id="back_button" href="" v-if="toggleContact" @click="toggleContactFunction"><i class="fas fa-arrow-left"></i></a>
+            <a id="back_button" href="" v-if="toggleMail" @click="toggleMailFunction"><i class="fas fa-arrow-left"></i></a>
             <img src="logo_sj.jpg" alt="">
           </div>
           <div id="counter">
@@ -51,14 +52,14 @@
                     <div class="round_icon">
                   </div> -->
                   <div class="pulse_button">
-                    <a @click="toggleContactFunction"><strong>ORDINA ORA</strong><span class="icona_freccia">
+                    <a @click="toggleMailFunction"><strong>ORDINA ORA</strong><span class="icona_freccia">
                       <i class="fas fa-arrow-right"></i>
                     </span> </a>
                   </div>
                 </div>
                 <div class="wrap">
                   <div class="pulse_button">
-                    <a ><strong>CONTATTACI</strong><span class="icona_freccia">
+                    <a @click="toggleContactFunction" ><strong>CONTATTACI</strong><span class="icona_freccia">
                       <i class="fas fa-arrow-right"></i>
                     </span> </a>
                   </div>
@@ -144,59 +145,6 @@
           </section>
         <!-- /FORM CONTACT SECTION -->
 
-            <!-- FORM oreder SECTION -->
-            <section id="form_contact" >
-              <div class="jl_container">
-                <div class="card">
-                  <div class="row p-2">
-                   
-                    <div class="col-md-12 text-center ">
-                      <h4 class="text-uppercase text-bolder"><strong>completa l'ordine di super julietti</strong></h4>
-                      
-                      <form>
-                        <div class="form-row row">
-                          <div class="form-group col-md-9">
-                            <input type="text" class="form-control" id="inputAdress" placeholder="Indirizzo">
-                          </div>
-                          <div class="form-group col-md-3">
-                            <input type="text" class="form-control" id="inputAdressCivico" placeholder="N. Civico">
-                          </div>
-                        </div>
-                        <hr>
-                        <div class="form-row row">
-                          <div class="form-group col-md-9">
-                            <input type="text" class="form-control" id="inputCity" placeholder="Città">
-                          </div>
-                          <div class="form-group col-md-3">
-                            <input type="text" class="form-control" id="inputCap" placeholder="CAP">
-                          </div>
-                        </div>
-                        <hr>
-                        <div class="form-group">
-                          <input type="text" class="form-control" id="inputNote" placeholder="Eventuali note per corriere">
-                        </div>
-                        <hr>
-                        <div class="jumbo_btn_wrap">
-                          <a class="garanzia_button button" href="#">Garanzia 30 giorni SODDISFATTI O RIMBORSATI</a>
-                        </div>
-                        <div class="spedizione text-uppercase text-white mt-3 py-3">
-                          <i class="fas fa-truck-moving "></i>
-                          <h4 class="text-uppercase text-center"> Spedizione in 24 ore! </h4>
-                        </div>
-                        <div class="pagamento text-uppercase text-center py-1">PAGAMENTO IN CONTANTI AL CORRIERE</div>
-                        <div class="pulse_button">
-                          <a class="submit_btn my-2 text-uppercase" type="submit"><strong>avanti</strong><span class="icona_freccia">
-                            <i class="fas fa-arrow-right"></i>
-                          </span> </a>
-                        </div>
-                        <p>*spese di spedizione 6,95€</p>
-                      </form>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              </section>
-            <!-- /FORM order SECTION -->
 
         <!-- UN NUOVO MODO PREPARA VERDURE -->
           <section id="prep_ver" >
@@ -249,14 +197,14 @@
                   <div class="round_icon">
                 </div> -->
                 <div class="pulse_button">
-                  <a @click="toggleContactFunction"><strong>ORDINA ORA</strong><span class="icona_freccia">
+                  <a @click="toggleMailFunction"><strong>ORDINA ORA</strong><span class="icona_freccia">
                     <i class="fas fa-arrow-right"></i>
                   </span> </a>
                 </div>
               </div>
               <div class="wrap">
                 <div class="pulse_button">
-                  <a ><strong>CONTATTACI</strong><span class="icona_freccia">
+                  <a @click="toggleContactFunction"><strong>CONTATTACI</strong><span class="icona_freccia">
                     <i class="fas fa-arrow-right"></i>
                   </span> </a>
                 </div>
@@ -692,6 +640,63 @@
           </div>
         </section>
 
+
+        <!-- FORM oreder SECTION -->
+        <section id="form_contact" v-if="toggleMail" >
+          <div class="jl_container">
+            <div class="card">
+              <div class="row p-2">
+
+                <div class="col-md-12 text-center ">
+                  <h4 class="text-uppercase text-bolder"><strong>completa l'ordine di super julietti</strong></h4>
+
+                  <form>
+                    <div class="form-row row">
+                      <div class="form-group col-md-9">
+                        <input type="text" class="form-control" id="inputAdress" placeholder="Indirizzo">
+                      </div>
+                      <div class="form-group col-md-3">
+                        <input type="text" class="form-control" id="inputAdressCivico" placeholder="N. Civico">
+                      </div>
+                    </div>
+                    <hr>
+                    <div class="form-row row">
+                      <div class="form-group col-md-9">
+                        <input type="text" class="form-control" id="inputCity" placeholder="Città">
+                      </div>
+                      <div class="form-group col-md-3">
+                        <input type="text" class="form-control" id="inputCap" placeholder="CAP">
+                      </div>
+                    </div>
+                    <hr>
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="inputNote" placeholder="Eventuali note per corriere">
+                    </div>
+                    <hr>
+                    <div class="jumbo_btn_wrap">
+                      <a class="garanzia_button button" href="#">Garanzia 30 giorni SODDISFATTI O RIMBORSATI</a>
+                    </div>
+                    <div class="spedizione text-uppercase text-white mt-3 py-3">
+                      <i class="fas fa-truck-moving "></i>
+                      <h4 class="text-uppercase text-center"> Spedizione in 24 ore! </h4>
+                    </div>
+                    <div class="pagamento text-uppercase text-center py-1">PAGAMENTO IN CONTANTI AL CORRIERE</div>
+                    <div class="pulse_button">
+                      <a class="submit_btn my-2 text-uppercase" type="submit"><strong>avanti</strong><span class="icona_freccia">
+                        <i class="fas fa-arrow-right"></i>
+                      </span> </a>
+                    </div>
+                    <p>*spese di spedizione 6,95€</p>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          </section>
+        <!-- /FORM order SECTION -->
+
+
+
         <footer>
             <div class="footer_top">
               © 2019 Super Julietti - Tutti i diritti riservati. <br>
@@ -705,14 +710,14 @@
                   <div class="round_icon">
                   </div> -->
                   <div class="pulse_button">
-                      <a @click="toggleContactFunction"><strong>ORDINA ORA</strong><span class="icona_freccia">
+                      <a @click="toggleMailFunction"><strong>ORDINA ORA</strong><span class="icona_freccia">
                           <i class="fas fa-arrow-right"></i>
                       </span> </a>
                   </div>
                 </div>
                 <div class="wrap">
                   <div class="pulse_button">
-                      <a ><strong>CONTATTACI</strong><span class="icona_freccia">
+                      <a @click="toggleContactFunction"><strong>CONTATTACI</strong><span class="icona_freccia">
                           <i class="fas fa-arrow-right"></i>
                       </span> </a>
                   </div>

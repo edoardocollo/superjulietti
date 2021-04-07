@@ -15,6 +15,7 @@ let app = new Vue({
     toggle:true,
     toggleFeedback:false,
     toggleContact:false,
+    toggleMail:false,
     views:9990425.10,
   },
   methods:{
@@ -26,6 +27,11 @@ let app = new Vue({
     toggleContactFunction: function(){
       this.toggle = !this.toggle;
       this.toggleContact = !this.toggleContact
+      window.scrollTo(0, 0);
+    },
+    toggleMailFunction: function(){
+      this.toggle = !this.toggle;
+      this.toggleMail = !this.toggleMail
       window.scrollTo(0, 0);
     }
   },
