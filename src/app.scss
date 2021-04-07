@@ -10,6 +10,9 @@
   background-color: white;
   border-radius: 50%;
 }
+a:hover{
+  color: white !important;
+}
 @import 'partials/_nav.scss';
 @import 'partials/_jumbo.scss';
 @import 'partials/_video.scss';
@@ -22,6 +25,8 @@
 @import 'partials/_prep.scss';
 @import 'partials/_feedbackPage.scss';
 @import 'partials/_mediaquery.scss';
+
+
 
 .footer_top, .footer_bottom {
   text-align: center;
