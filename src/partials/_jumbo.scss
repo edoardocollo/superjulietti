@@ -1,7 +1,6 @@
 /* JUMBOTRON */
 #jumbotron {
   color: #2c5e53;
-  height: 473px;
   background-color: #d4fec9;
   .wrap{
     display: flex;
@@ -11,6 +10,8 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
+      padding: 5px;
+
       h1 {
         text-transform: uppercase;
       }
@@ -77,8 +78,13 @@
       display: flex;
       margin-top: 10px;
       justify-content: flex-end;
-      img {
-        height: 100%;
+      div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+          width: 80%;
+        }
       }
     }
   }
@@ -122,4 +128,3 @@
     transition-property: right, left, opacity;
   }
 }
-
