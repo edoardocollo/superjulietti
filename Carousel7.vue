@@ -42,9 +42,20 @@ export default {
   data() {
     return {
       hooperSettings: {
-        itemsToShow: 3,
+        itemsToShow: 1,
         centerMode: false,
         wheelControl: false,
+        breakpoints: {
+         760: {
+           centerMode: false,
+           itemsToShow: 2
+         },
+         1200: {
+           itemsToShow: 3,
+           pagination: 'fraction'
+         }
+       }
+
       }
     };
   }

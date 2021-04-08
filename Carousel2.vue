@@ -95,11 +95,21 @@ export default {
   data() {
     return {
       hooperSettings: {
-        itemsToShow: 3,
+        itemsToShow: 1,
         centerMode: false,
         wheelControl: false,
         autoPlay:true,
         playSpeed:2000,
+        breakpoints: {
+         760: {
+           centerMode: false,
+           itemsToShow: 2
+         },
+         1200: {
+           itemsToShow: 3,
+           pagination: 'fraction'
+         }
+       }
       }
     };
   }

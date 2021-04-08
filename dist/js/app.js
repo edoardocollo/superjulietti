@@ -246,6 +246,25 @@ __webpack_require__.r(__webpack_exports__);
   components: {
     Hooper: hooper__WEBPACK_IMPORTED_MODULE_0__.Hooper,
     Slide: hooper__WEBPACK_IMPORTED_MODULE_0__.Slide
+  },
+  data: function data() {
+    return {
+      hooperSettings: {
+        itemsToShow: 3,
+        centerMode: false,
+        wheelControl: false,
+        breakpoints: {
+          760: {
+            centerMode: false,
+            itemsToShow: 2
+          },
+          1200: {
+            itemsToShow: 3,
+            pagination: 'fraction'
+          }
+        }
+      }
+    };
   }
 });
 
@@ -350,11 +369,21 @@ __webpack_require__.r(__webpack_exports__);
   data: function data() {
     return {
       hooperSettings: {
-        itemsToShow: 3,
+        itemsToShow: 1,
         centerMode: false,
         wheelControl: false,
         autoPlay: true,
-        playSpeed: 2000
+        playSpeed: 2000,
+        breakpoints: {
+          760: {
+            centerMode: false,
+            itemsToShow: 2
+          },
+          1200: {
+            itemsToShow: 3,
+            pagination: 'fraction'
+          }
+        }
       }
     };
   }
@@ -406,9 +435,19 @@ __webpack_require__.r(__webpack_exports__);
   data: function data() {
     return {
       hooperSettings: {
-        itemsToShow: 3,
+        itemsToShow: 1,
         centerMode: false,
-        wheelControl: false
+        wheelControl: false,
+        breakpoints: {
+          760: {
+            centerMode: false,
+            itemsToShow: 2
+          },
+          1200: {
+            itemsToShow: 3,
+            pagination: 'fraction'
+          }
+        }
       }
     };
   }
@@ -459,9 +498,19 @@ __webpack_require__.r(__webpack_exports__);
   data: function data() {
     return {
       hooperSettings: {
-        itemsToShow: 3,
+        itemsToShow: 1,
         centerMode: false,
-        wheelControl: false
+        wheelControl: false,
+        breakpoints: {
+          760: {
+            centerMode: false,
+            itemsToShow: 2
+          },
+          1200: {
+            itemsToShow: 3,
+            pagination: 'fraction'
+          }
+        }
       }
     };
   }
@@ -515,9 +564,19 @@ __webpack_require__.r(__webpack_exports__);
   data: function data() {
     return {
       hooperSettings: {
-        itemsToShow: 3,
+        itemsToShow: 1,
         centerMode: false,
-        wheelControl: false
+        wheelControl: false,
+        breakpoints: {
+          760: {
+            centerMode: false,
+            itemsToShow: 2
+          },
+          1200: {
+            itemsToShow: 3,
+            pagination: 'fraction'
+          }
+        }
       }
     };
   }
@@ -568,9 +627,19 @@ __webpack_require__.r(__webpack_exports__);
   data: function data() {
     return {
       hooperSettings: {
-        itemsToShow: 3,
+        itemsToShow: 1,
         centerMode: false,
-        wheelControl: false
+        wheelControl: false,
+        breakpoints: {
+          760: {
+            centerMode: false,
+            itemsToShow: 2
+          },
+          1200: {
+            itemsToShow: 3,
+            pagination: 'fraction'
+          }
+        }
       }
     };
   }
@@ -624,9 +693,19 @@ __webpack_require__.r(__webpack_exports__);
   data: function data() {
     return {
       hooperSettings: {
-        itemsToShow: 3,
+        itemsToShow: 1,
         centerMode: false,
-        wheelControl: false
+        wheelControl: false,
+        breakpoints: {
+          760: {
+            centerMode: false,
+            itemsToShow: 2
+          },
+          1200: {
+            itemsToShow: 3,
+            pagination: 'fraction'
+          }
+        }
       }
     };
   }
@@ -682,7 +761,17 @@ __webpack_require__.r(__webpack_exports__);
       hooperSettings: {
         itemsToShow: 3,
         centerMode: false,
-        wheelControl: false
+        wheelControl: false,
+        breakpoints: {
+          760: {
+            centerMode: false,
+            itemsToShow: 2
+          },
+          1200: {
+            itemsToShow: 3,
+            pagination: 'fraction'
+          }
+        }
       }
     };
   }
